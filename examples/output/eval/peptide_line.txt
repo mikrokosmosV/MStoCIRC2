@@ -1,0 +1,1 @@
+peptide	linear_protein	MS_ID

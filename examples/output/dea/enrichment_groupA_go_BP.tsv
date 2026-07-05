@@ -1,0 +1,130 @@
+term_id	term_description	gene_count	gene_ratio_str	gene_ratio	bg_ratio	p_value	adj_p_value	gene_symbols
+Regulation Of Chromosome Separation (GO:1905818)	Regulation Of Chromosome Separation (GO:1905818)	2	2/12	0.16666666666666666	12	1.809549125289741e-05	0.0023343183716237	NUMA1;TPR
+Regulation Of Spindle Assembly (GO:0090169)	Regulation Of Spindle Assembly (GO:0090169)	2	2/29	0.06896551724137931	29	0.0001107501888077093	0.0064992810898318	NUMA1;TPR
+Positive Regulation Of Intracellular Transport (GO:0032388)	Positive Regulation Of Intracellular Transport (GO:0032388)	2	2/39	0.05128205128205128	39	0.000201528095808739	0.0064992810898318	NUMA1;TPR
+Regulation Of Mitotic Spindle Organization (GO:0060236)	Regulation Of Mitotic Spindle Organization (GO:0060236)	2	2/39	0.05128205128205128	39	0.000201528095808739	0.0064992810898318	NUMA1;TPR
+Nucleus Organization (GO:0006997)	Nucleus Organization (GO:0006997)	2	2/44	0.045454545454545456	44	0.0002568962468343873	0.0066279231683271	NUMA1;TPR
+Positive Regulation Of Cell Cycle Process (GO:0090068)	Positive Regulation Of Cell Cycle Process (GO:0090068)	2	2/118	0.01694915254237288	118	0.0018334402039742	0.0328420186975782	NUMA1;TPR
+Regulation Of mRNA Export From Nucleus (GO:0010793)	Regulation Of mRNA Export From Nucleus (GO:0010793)	1	1/5	0.2	5	0.0027472053583369	0.0328420186975782	TPR
+Regulation Of Ribonucleoprotein Complex Localization (GO:2000197)	Regulation Of Ribonucleoprotein Complex Localization (GO:2000197)	1	1/5	0.2	5	0.0027472053583369	0.0328420186975782	TPR
+Positive Regulation Of Spindle Assembly (GO:1905832)	Positive Regulation Of Spindle Assembly (GO:1905832)	1	1/6	0.16666666666666666	6	0.0032958256764104	0.0328420186975782	NUMA1
+Auditory Receptor Cell Morphogenesis (GO:0002093)	Auditory Receptor Cell Morphogenesis (GO:0002093)	1	1/6	0.16666666666666666	6	0.0032958256764104	0.0328420186975782	TPRN
+Auditory Receptor Cell Stereocilium Organization (GO:0060088)	Auditory Receptor Cell Stereocilium Organization (GO:0060088)	1	1/6	0.16666666666666666	6	0.0032958256764104	0.0328420186975782	TPRN
+Regulation Of Protein Localization To Cell Cortex (GO:1904776)	Regulation Of Protein Localization To Cell Cortex (GO:1904776)	1	1/7	0.14285714285714285	7	0.0038441720045859	0.0328420186975782	NUMA1
+Cellular Response To Interferon-Alpha (GO:0035457)	Cellular Response To Interferon-Alpha (GO:0035457)	1	1/7	0.14285714285714285	7	0.0038441720045859	0.0328420186975782	TPR
+Regulation Of Heterochromatin Formation (GO:0031445)	Regulation Of Heterochromatin Formation (GO:0031445)	1	1/7	0.14285714285714285	7	0.0038441720045859	0.0328420186975782	TPR
+Astral Microtubule Organization (GO:0030953)	Astral Microtubule Organization (GO:0030953)	1	1/8	0.125	8	0.004392244396163	0.0328420186975782	NUMA1
+Regulation Of Postsynaptic Neurotransmitter Receptor Activity (GO:0098962)	Regulation Of Postsynaptic Neurotransmitter Receptor Activity (GO:0098962)	1	1/9	0.1111111111111111	9	0.004940042922945	0.0328420186975782	DLGAP4
+Regulation Of Mitotic Sister Chromatid Separation (GO:0010965)	Regulation Of Mitotic Sister Chromatid Separation (GO:0010965)	1	1/10	0.1	10	0.0054875676690229	0.0328420186975782	TPR
+Nuclear Pore Complex Assembly (GO:0051292)	Nuclear Pore Complex Assembly (GO:0051292)	1	1/10	0.1	10	0.0054875676690229	0.0328420186975782	TPR
+Regulation Of RNA Export From Nucleus (GO:0046831)	Regulation Of RNA Export From Nucleus (GO:0046831)	1	1/11	0.09090909090909091	11	0.0060348187277604	0.0328420186975782	TPR
+Inner Ear Receptor Cell Stereocilium Organization (GO:0060122)	Inner Ear Receptor Cell Stereocilium Organization (GO:0060122)	1	1/11	0.09090909090909091	11	0.0060348187277604	0.0328420186975782	TPRN
+Positive Regulation Of Spindle Checkpoint (GO:0090232)	Positive Regulation Of Spindle Checkpoint (GO:0090232)	1	1/11	0.09090909090909091	11	0.0060348187277604	0.0328420186975782	TPR
+Positive Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090267)	Positive Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090267)	1	1/11	0.09090909090909091	11	0.0060348187277604	0.0328420186975782	TPR
+Positive Regulation Of Protein Export From Nucleus (GO:0046827)	Positive Regulation Of Protein Export From Nucleus (GO:0046827)	1	1/12	0.08333333333333333	12	0.0065817961978748	0.0328420186975782	TPR
+Cellular Component Maintenance (GO:0043954)	Cellular Component Maintenance (GO:0043954)	1	1/12	0.08333333333333333	12	0.0065817961978748	0.0328420186975782	TPRN
+Positive Regulation Of Heterochromatin Formation (GO:0031453)	Positive Regulation Of Heterochromatin Formation (GO:0031453)	1	1/13	0.07692307692307693	13	0.00712850018242	0.0328420186975782	TPR
+Positive Regulation Of Keratinocyte Differentiation (GO:0045618)	Positive Regulation Of Keratinocyte Differentiation (GO:0045618)	1	1/13	0.07692307692307693	13	0.00712850018242	0.0328420186975782	NUMA1
+Negative Regulation Of Translational Initiation (GO:0045947)	Negative Regulation Of Translational Initiation (GO:0045947)	1	1/13	0.07692307692307693	13	0.00712850018242	0.0328420186975782	TPR
+Positive Regulation Of Chromosome Separation (GO:1905820)	Positive Regulation Of Chromosome Separation (GO:1905820)	1	1/13	0.07692307692307693	13	0.00712850018242	0.0328420186975782	NUMA1
+Negative Regulation Of Nucleocytoplasmic Transport (GO:0046823)	Negative Regulation Of Nucleocytoplasmic Transport (GO:0046823)	1	1/14	0.07142857142857142	14	0.0076749307875411	0.0330022023864269	TPR
+Nuclear Pore Organization (GO:0006999)	Nuclear Pore Organization (GO:0006999)	1	1/14	0.07142857142857142	14	0.0076749307875411	0.0330022023864269	TPR
+Regulation Of Nucleocytoplasmic Transport (GO:0046822)	Regulation Of Nucleocytoplasmic Transport (GO:0046822)	1	1/16	0.0625	16	0.0087669723009575	0.0343695105646304	TPR
+Response To Interferon-Alpha (GO:0035455)	Response To Interferon-Alpha (GO:0035455)	1	1/17	0.058823529411764705	17	0.0093125834341288	0.0343695105646304	TPR
+Androgen Receptor Signaling Pathway (GO:0030521)	Androgen Receptor Signaling Pathway (GO:0030521)	1	1/17	0.058823529411764705	17	0.0093125834341288	0.0343695105646304	TMF1
+Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090266)	Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090266)	1	1/17	0.058823529411764705	17	0.0093125834341288	0.0343695105646304	TPR
+Positive Regulation Of Chromosome Segregation (GO:0051984)	Positive Regulation Of Chromosome Segregation (GO:0051984)	1	1/18	0.05555555555555555	18	0.0098579216348164	0.0343695105646304	NUMA1
+Regulation Of Nervous System Process (GO:0031644)	Regulation Of Nervous System Process (GO:0031644)	1	1/18	0.05555555555555555	18	0.0098579216348164	0.0343695105646304	DLGAP4
+Positive Regulation Of Epidermal Cell Differentiation (GO:0045606)	Positive Regulation Of Epidermal Cell Differentiation (GO:0045606)	1	1/18	0.05555555555555555	18	0.0098579216348164	0.0343695105646304	NUMA1
+Pore Complex Assembly (GO:0046931)	Pore Complex Assembly (GO:0046931)	1	1/19	0.05263157894736842	19	0.0104029870187894	0.0353065895417105	TPR
+Regulation Of Mitotic Spindle Assembly (GO:1901673)	Regulation Of Mitotic Spindle Assembly (GO:1901673)	1	1/20	0.05	20	0.0109477797028559	0.0353065895417105	TPR
+Regulation Of Spindle Organization (GO:0090224)	Regulation Of Spindle Organization (GO:0090224)	1	1/20	0.05	20	0.0109477797028559	0.0353065895417105	NUMA1
+Regulation Of Protein Export From Nucleus (GO:0046825)	Regulation Of Protein Export From Nucleus (GO:0046825)	1	1/22	0.045454545454545456	22	0.0120365474388125	0.0366639044465392	TPR
+Modulation By Host Of Viral Process (GO:0044788)	Modulation By Host Of Viral Process (GO:0044788)	1	1/22	0.045454545454545456	22	0.0120365474388125	0.0366639044465392	PI4KA
+Regulation Of Proteolysis Involved In Protein Catabolic Process (GO:1903050)	Regulation Of Proteolysis Involved In Protein Catabolic Process (GO:1903050)	1	1/24	0.041666666666666664	24	0.0131242257813257	0.0366639044465392	TMF1
+Positive Regulation Of BMP Signaling Pathway (GO:0030513)	Positive Regulation Of BMP Signaling Pathway (GO:0030513)	1	1/24	0.041666666666666664	24	0.0131242257813257	0.0366639044465392	NUMA1
+Regulation Of Keratinocyte Differentiation (GO:0045616)	Regulation Of Keratinocyte Differentiation (GO:0045616)	1	1/26	0.038461538461538464	26	0.0142108156769532	0.0366639044465392	NUMA1
+Spindle Assembly Checkpoint Signaling (GO:0071173)	Spindle Assembly Checkpoint Signaling (GO:0071173)	1	1/26	0.038461538461538464	26	0.0142108156769532	0.0366639044465392	TPR
+Protein Export From Nucleus (GO:0006611)	Protein Export From Nucleus (GO:0006611)	1	1/26	0.038461538461538464	26	0.0142108156769532	0.0366639044465392	TPR
+Positive Regulation Of Microtubule Polymerization Or Depolymerization (GO:0031112)	Positive Regulation Of Microtubule Polymerization Or Depolymerization (GO:0031112)	1	1/26	0.038461538461538464	26	0.0142108156769532	0.0366639044465392	NUMA1
+Mitotic Spindle Assembly Checkpoint Signaling (GO:0007094)	Mitotic Spindle Assembly Checkpoint Signaling (GO:0007094)	1	1/26	0.038461538461538464	26	0.0142108156769532	0.0366639044465392	TPR
+Mitotic Spindle Checkpoint Signaling (GO:0071174)	Mitotic Spindle Checkpoint Signaling (GO:0071174)	1	1/26	0.038461538461538464	26	0.0142108156769532	0.0366639044465392	TPR
+Regulation Of Chromosome Segregation (GO:0051983)	Regulation Of Chromosome Segregation (GO:0051983)	1	1/28	0.03571428571428571	28	0.0152963180805092	0.0371488612462935	NUMA1
+Positive Regulation Of Protein Import Into Nucleus (GO:0042307)	Positive Regulation Of Protein Import Into Nucleus (GO:0042307)	1	1/28	0.03571428571428571	28	0.0152963180805092	0.0371488612462935	TPR
+Negative Regulation Of Mitotic Metaphase/Anaphase Transition (GO:0045841)	Negative Regulation Of Mitotic Metaphase/Anaphase Transition (GO:0045841)	1	1/28	0.03571428571428571	28	0.0152963180805092	0.0371488612462935	TPR
+Establishment Of Mitotic Spindle Orientation (GO:0000132)	Establishment Of Mitotic Spindle Orientation (GO:0000132)	1	1/29	0.034482758620689655	29	0.0158386617716755	0.0371488612462935	NUMA1
+Positive Regulation Of Microtubule Polymerization (GO:0031116)	Positive Regulation Of Microtubule Polymerization (GO:0031116)	1	1/29	0.034482758620689655	29	0.0158386617716755	0.0371488612462935	NUMA1
+Response To Epidermal Growth Factor (GO:0070849)	Response To Epidermal Growth Factor (GO:0070849)	1	1/30	0.03333333333333333	30	0.0163807339505408	0.0377341907074959	TPR
+Inositol Lipid-Mediated Signaling (GO:0048017)	Inositol Lipid-Mediated Signaling (GO:0048017)	1	1/33	0.030303030303030304	33	0.0180053225963931	0.0407488879813109	PI4KA
+Establishment Of Mitotic Spindle Localization (GO:0040001)	Establishment Of Mitotic Spindle Localization (GO:0040001)	1	1/34	0.029411764705882353	34	0.0185463099170106	0.0412495513671444	NUMA1
+Establishment Of Spindle Orientation (GO:0051294)	Establishment Of Spindle Orientation (GO:0051294)	1	1/35	0.02857142857142857	35	0.0190870263243922	0.0417326507770611	NUMA1
+Regulation Of Intracellular Protein Transport (GO:0033157)	Regulation Of Intracellular Protein Transport (GO:0033157)	1	1/36	0.027777777777777776	36	0.0196274719399136	0.0421990646708143	TPR
+Regulation Of Intracellular Transport (GO:0032386)	Regulation Of Intracellular Transport (GO:0032386)	1	1/38	0.02631578947368421	38	0.0207075512732703	0.0425828000878737	NUMA1
+Regulation Of Protein Import Into Nucleus (GO:0042306)	Regulation Of Protein Import Into Nucleus (GO:0042306)	1	1/38	0.02631578947368421	38	0.0207075512732703	0.0425828000878737	TPR
+RNA Transport (GO:0050658)	RNA Transport (GO:0050658)	1	1/39	0.02564102564102564	39	0.0212471852336025	0.0425828000878737	TPR
+Nuclear Transport (GO:0051169)	Nuclear Transport (GO:0051169)	1	1/39	0.02564102564102564	39	0.0212471852336025	0.0425828000878737	TPR
+Regulation Of Microtubule Polymerization (GO:0031113)	Regulation Of Microtubule Polymerization (GO:0031113)	1	1/40	0.025	40	0.0217865488821679	0.0425828000878737	NUMA1
+Cellular Response To Heat (GO:0034605)	Cellular Response To Heat (GO:0034605)	1	1/40	0.025	40	0.0217865488821679	0.0425828000878737	TPR
+Regulation Of Neurotransmitter Receptor Activity (GO:0099601)	Regulation Of Neurotransmitter Receptor Activity (GO:0099601)	1	1/42	0.023809523809523808	42	0.0228644657337732	0.0433752364655403	DLGAP4
+Modulation By Host Of Symbiont Process (GO:0051851)	Modulation By Host Of Symbiont Process (GO:0051851)	1	1/42	0.023809523809523808	42	0.0228644657337732	0.0433752364655403	PI4KA
+Intracellular Steroid Hormone Receptor Signaling Pathway (GO:0030518)	Intracellular Steroid Hormone Receptor Signaling Pathway (GO:0030518)	1	1/43	0.023255813953488372	43	0.0234030191755172	0.0434989867656972	TMF1
+Phosphatidylinositol Phosphate Biosynthetic Process (GO:0046854)	Phosphatidylinositol Phosphate Biosynthetic Process (GO:0046854)	1	1/44	0.022727272727272728	44	0.0239413027935232	0.0434989867656972	PI4KA
+Positive Regulation Of Nucleocytoplasmic Transport (GO:0046824)	Positive Regulation Of Nucleocytoplasmic Transport (GO:0046824)	1	1/44	0.022727272727272728	44	0.0239413027935232	0.0434989867656972	TPR
+Cytoplasmic Microtubule Organization (GO:0031122)	Cytoplasmic Microtubule Organization (GO:0031122)	1	1/48	0.020833333333333332	48	0.0260917413851551	0.0464094136966854	NUMA1
+Nuclear Export (GO:0051168)	Nuclear Export (GO:0051168)	1	1/49	0.02040816326530612	49	0.0266286776759158	0.0464094136966854	TPR
+Positive Regulation Of Transport (GO:0051050)	Positive Regulation Of Transport (GO:0051050)	1	1/50	0.02	50	0.0271653448579923	0.0464094136966854	NUMA1
+Nucleocytoplasmic Transport (GO:0006913)	Nucleocytoplasmic Transport (GO:0006913)	1	1/50	0.02	50	0.0271653448579923	0.0464094136966854	TPR
+Positive Regulation Of Protein Localization To Cell Periphery (GO:1904377)	Positive Regulation Of Protein Localization To Cell Periphery (GO:1904377)	1	1/51	0.0196078431372549	51	0.0277017430592618	0.0464094136966854	NUMA1
+Microtubule Bundle Formation (GO:0001578)	Microtubule Bundle Formation (GO:0001578)	1	1/51	0.0196078431372549	51	0.0277017430592618	0.0464094136966854	NUMA1
+Regulation Of Protein Localization To Nucleus (GO:1900180)	Regulation Of Protein Localization To Nucleus (GO:1900180)	1	1/52	0.019230769230769232	52	0.0282378723956638	0.0467010966543671	TPR
+Regulation Of Proteasomal Protein Catabolic Process (GO:0061136)	Regulation Of Proteasomal Protein Catabolic Process (GO:0061136)	1	1/53	0.018867924528301886	53	0.0287737329936235	0.0469849564073093	TMF1
+mRNA Transport (GO:0051028)	mRNA Transport (GO:0051028)	1	1/58	0.017241379310344827	58	0.0314490090797197	0.0500854589047389	TPR
+Response To Organic Cyclic Compound (GO:0014070)	Response To Organic Cyclic Compound (GO:0014070)	1	1/58	0.017241379310344827	58	0.0314490090797197	0.0500854589047389	TPR
+Positive Regulation Of Organelle Assembly (GO:1902117)	Positive Regulation Of Organelle Assembly (GO:1902117)	1	1/61	0.01639344262295082	61	0.0330509575559811	0.0515760503913313	NUMA1
+mRNA Export From Nucleus (GO:0006406)	mRNA Export From Nucleus (GO:0006406)	1	1/62	0.016129032258064516	62	0.0335844049059831	0.0515760503913313	TPR
+Phosphatidylinositol-Mediated Signaling (GO:0048015)	Phosphatidylinositol-Mediated Signaling (GO:0048015)	1	1/62	0.016129032258064516	62	0.0335844049059831	0.0515760503913313	PI4KA
+Phosphatidylinositol Metabolic Process (GO:0046488)	Phosphatidylinositol Metabolic Process (GO:0046488)	1	1/63	0.015873015873015872	63	0.034117584722214	0.0517784521078307	PI4KA
+RNA Export From Nucleus (GO:0006405)	RNA Export From Nucleus (GO:0006405)	1	1/65	0.015384615384615385	65	0.0351831422208768	0.0521681074309553	TPR
+Regulation Of Translational Initiation (GO:0006446)	Regulation Of Translational Initiation (GO:0006446)	1	1/65	0.015384615384615385	65	0.0351831422208768	0.0521681074309553	TPR
+tRNA Modification (GO:0006400)	tRNA Modification (GO:0006400)	1	1/67	0.014925373134328358	67	0.0362476310178566	0.0531357318329943	QTRT2
+B Cell Differentiation (GO:0030183)	B Cell Differentiation (GO:0030183)	1	1/68	0.014705882352941176	68	0.0367794749552908	0.0533095760587922	IRF2BP2
+Positive Regulation Of Protein Polymerization (GO:0032273)	Positive Regulation Of Protein Polymerization (GO:0032273)	1	1/70	0.014285714285714285	70	0.0378423625037638	0.0536446677251157	NUMA1
+Positive Regulation Of Protein Transport (GO:0051222)	Positive Regulation Of Protein Transport (GO:0051222)	1	1/70	0.014285714285714285	70	0.0378423625037638	0.0536446677251157	TPR
+Regulation Of Cellular Localization (GO:0060341)	Regulation Of Cellular Localization (GO:0060341)	1	1/72	0.013888888888888888	72	0.0389041837581843	0.0539638677936105	TPR
+Positive Regulation Of Protein Localization To Nucleus (GO:1900182)	Positive Regulation Of Protein Localization To Nucleus (GO:1900182)	1	1/72	0.013888888888888888	72	0.0389041837581843	0.0539638677936105	TPR
+Import Into Nucleus (GO:0051170)	Import Into Nucleus (GO:0051170)	1	1/74	0.013513513513513514	74	0.0399649396748714	0.0548455023197704	TPR
+Regulation Of BMP Signaling Pathway (GO:0030510)	Regulation Of BMP Signaling Pathway (GO:0030510)	1	1/75	0.013333333333333334	75	0.0404949184271054	0.0549878366010168	NUMA1
+Protein Import Into Nucleus (GO:0006606)	Protein Import Into Nucleus (GO:0006606)	1	1/79	0.012658227848101266	79	0.0426121749090392	0.0566697996212996	TPR
+Positive Regulation Of Cytoskeleton Organization (GO:0051495)	Positive Regulation Of Cytoskeleton Organization (GO:0051495)	1	1/79	0.012658227848101266	79	0.0426121749090392	0.0566697996212996	NUMA1
+Spindle Assembly (GO:0051225)	Spindle Assembly (GO:0051225)	1	1/81	0.012345679012345678	81	0.0436692097020192	0.0574829393016375	NUMA1
+Positive Regulation Of Protein Localization (GO:1903829)	Positive Regulation Of Protein Localization (GO:1903829)	1	1/85	0.011764705882352941	85	0.0457800971719973	0.0590563253518765	NUMA1
+Establishment Of Protein Localization To Organelle (GO:0072594)	Establishment Of Protein Localization To Organelle (GO:0072594)	1	1/85	0.011764705882352941	85	0.0457800971719973	0.0590563253518765	TPR
+Sensory Perception Of Mechanical Stimulus (GO:0050954)	Sensory Perception Of Mechanical Stimulus (GO:0050954)	1	1/89	0.011235955056179775	89	0.0478867482017097	0.0611622823566392	TPRN
+Sensory Perception Of Sound (GO:0007605)	Sensory Perception Of Sound (GO:0007605)	1	1/92	0.010869565217391304	92	0.0494639609101419	0.0625573623275324	TPRN
+Positive Regulation Of Cellular Component Biogenesis (GO:0044089)	Positive Regulation Of Cellular Component Biogenesis (GO:0044089)	1	1/93	0.010752688172043012	93	0.0499891704318726	0.0626077959777822	TPR
+Positive Regulation Of Transmembrane Receptor Protein Serine/Threonine Kinase Signaling Pathway (GO:0090100)	Positive Regulation Of Transmembrane Receptor Protein Serine/Threonine Kinase Signaling Pathway (GO:0090100)	1	1/95	0.010526315789473684	95	0.0510387981390416	0.0633077399993882	NUMA1
+Positive Regulation Of Supramolecular Fiber Organization (GO:1902905)	Positive Regulation Of Supramolecular Fiber Organization (GO:1902905)	1	1/96	0.010416666666666666	96	0.0515632165556114	0.0633490946254655	NUMA1
+Regulation Of Protein Localization (GO:0032880)	Regulation Of Protein Localization (GO:0032880)	1	1/97	0.010309278350515464	97	0.0520873715006026	0.063389348335639	TPR
+Phosphatidylinositol Biosynthetic Process (GO:0006661)	Phosphatidylinositol Biosynthetic Process (GO:0006661)	1	1/98	0.01020408163265306	98	0.0526112631068001	0.0634285321567964	PI4KA
+Negative Regulation Of Translation (GO:0017148)	Negative Regulation Of Translation (GO:0017148)	1	1/107	0.009345794392523364	107	0.0573144565428046	0.0684477801561634	TPR
+Glycerophospholipid Biosynthetic Process (GO:0046474)	Glycerophospholipid Biosynthetic Process (GO:0046474)	1	1/108	0.009259259259259259	108	0.0578357212172233	0.0684477801561634	PI4KA
+Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122)	Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122)	2	2/763	0.002621231979030144	763	0.0636337514079039	0.0746250357419963	TPR;IRF2BP2
+Regulation Of Protein Catabolic Process (GO:0042176)	Regulation Of Protein Catabolic Process (GO:0042176)	1	1/122	0.00819672131147541	122	0.0651059661884504	0.0749151091544744	TMF1
+Protein Localization To Nucleus (GO:0034504)	Protein Localization To Nucleus (GO:0034504)	1	1/122	0.00819672131147541	122	0.0651059661884504	0.0749151091544744	TPR
+Modulation Of Chemical Synaptic Transmission (GO:0050804)	Modulation Of Chemical Synaptic Transmission (GO:0050804)	1	1/123	0.008130081300813009	123	0.0656233126701985	0.0749151091544744	DLGAP4
+Positive Regulation Of Intracellular Protein Transport (GO:0090316)	Positive Regulation Of Intracellular Protein Transport (GO:0090316)	1	1/126	0.007936507936507936	126	0.0671737909736009	0.0753514698747349	TPR
+Protein-Containing Complex Organization (GO:0043933)	Protein-Containing Complex Organization (GO:0043933)	1	1/126	0.007936507936507936	126	0.0671737909736009	0.0753514698747349	TPR
+Regulation Of Transcription By RNA Polymerase II (GO:0006357)	Regulation Of Transcription By RNA Polymerase II (GO:0006357)	3	3/2028	0.0014792899408284023	2028	0.0925143205287525	0.1028823047259403	TMF1;TPR;IRF2BP2
+Phosphate-Containing Compound Metabolic Process (GO:0006796)	Phosphate-Containing Compound Metabolic Process (GO:0006796)	1	1/184	0.005434782608695652	184	0.0966937086469272	0.1066110120978941	PI4KA
+Negative Regulation Of DNA-templated Transcription (GO:0045892)	Negative Regulation Of DNA-templated Transcription (GO:0045892)	2	2/1025	0.001951219512195122	1025	0.1062124957607705	0.1161136606198253	TPR;IRF2BP2
+Positive Regulation Of Developmental Process (GO:0051094)	Positive Regulation Of Developmental Process (GO:0051094)	1	1/233	0.004291845493562232	233	0.1209683341274381	0.1311337403566346	NUMA1
+Gene Expression (GO:0010467)	Gene Expression (GO:0010467)	1	1/296	0.0033783783783783786	296	0.1513068837331026	0.1626549000130853	TPR
+Cellular Response To Cytokine Stimulus (GO:0071345)	Cellular Response To Cytokine Stimulus (GO:0071345)	1	1/308	0.003246753246753247	308	0.1569765493380373	0.1673551641703042	TPR
+Intracellular Protein Transport (GO:0006886)	Intracellular Protein Transport (GO:0006886)	1	1/325	0.003076923076923077	325	0.1649496426027098	0.174413966358603	TPR
+Positive Regulation Of Multicellular Organismal Process (GO:0051240)	Positive Regulation Of Multicellular Organismal Process (GO:0051240)	1	1/387	0.002583979328165375	387	0.193450533801793	0.2028871452067586	NUMA1
+Organelle Organization (GO:0006996)	Organelle Organization (GO:0006996)	1	1/418	0.0023923444976076554	418	0.2073667498861664	0.2157283123815764	NUMA1
+Phosphorylation (GO:0016310)	Phosphorylation (GO:0016310)	1	1/429	0.002331002331002331	429	0.2122520490864254	0.219044114657191	PI4KA
+Positive Regulation Of Cellular Process (GO:0048522)	Positive Regulation Of Cellular Process (GO:0048522)	1	1/594	0.0016835016835016834	594	0.2823212812803272	0.2890432165489064	NUMA1
+Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944)	Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944)	1	1/938	0.0010660980810234541	938	0.4105258008194894	0.4169907740607412	TMF1
+Positive Regulation Of DNA-templated Transcription (GO:0045893)	Positive Regulation Of DNA-templated Transcription (GO:0045893)	1	1/1243	0.0008045052292839903	1243	0.5063847003749357	0.5103408308466149	TMF1
+Regulation Of DNA-templated Transcription (GO:0006355)	Regulation Of DNA-templated Transcription (GO:0006355)	1	1/1922	0.0005202913631633715	1922	0.6709981808255874	0.6709981808255874	IRF2BP2

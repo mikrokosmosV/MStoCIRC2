@@ -1,0 +1,35 @@
+{
+  "tool": "MStoCIRC2",
+  "module": "differential_expression",
+  "strategy": "diann-dia",
+  "organism": "mmu",
+  "organism_label": "mmu (Mus musculus (house mouse))",
+  "strategy_detail": {
+    "expression_matrix_type": "directLFQ",
+    "normalization": "none",
+    "imputation": "MinDet",
+    "dea_method": "limma"
+  },
+  "contrast": "groupA_vs_groupB",
+  "filter_summary": {
+    "input_peptide_count": 1004,
+    "peptides_removed_mrna_homology": 70,
+    "peptides_retained": 934,
+    "circrna_peptides_retained": 15
+  },
+  "volcano_stats": {
+    "total_deps": 61,
+    "circrna_deps": 3
+  },
+  "enrichment_summary": {
+    "groupA": {
+      "upreg_circ": 2,
+      "proxy_count": 11
+    },
+    "groupB": {
+      "upreg_circ": 1,
+      "proxy_count": 53
+    }
+  },
+  "elapsed_sec": 35.91
+}

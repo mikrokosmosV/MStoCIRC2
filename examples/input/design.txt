@@ -1,0 +1,13 @@
+sample	condition
+A1	groupA
+A2	groupA
+A3	groupA
+A4	groupA
+A5	groupA
+B1	groupB
+B2	groupB
+B3	groupB
+B4	groupB
+B5	groupB
+B6	groupB
+B7	groupB

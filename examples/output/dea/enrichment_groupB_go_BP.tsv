@@ -1,0 +1,408 @@
+term_id	term_description	gene_count	gene_ratio_str	gene_ratio	bg_ratio	p_value	adj_p_value	gene_symbols
+Regulation Of Translation (GO:0006417)	Regulation Of Translation (GO:0006417)	5	5/202	0.024752475247524754	202	0.00019361231352232937	0.0309057739565799	ZAR1L;NOLC1;PLXNB2;GCN1;PATL2
+Intracellular Steroid Hormone Receptor Signaling Pathway (GO:0030518)	Intracellular Steroid Hormone Receptor Signaling Pathway (GO:0030518)	3	3/43	0.06976744186046512	43	0.00020119015054404125	0.0309057739565799	TMF1;ARID1A;SAFB
+Nuclear Pore Complex Assembly (GO:0051292)	Nuclear Pore Complex Assembly (GO:0051292)	2	2/10	0.2	10	0.00030586608976532464	0.0309057739565799	TPR;NUP153
+Regulation Of RNA Export From Nucleus (GO:0046831)	Regulation Of RNA Export From Nucleus (GO:0046831)	2	2/11	0.18181818181818182	11	0.00037320219519280473	0.0309057739565799	TPR;NUP153
+Post-Transcriptional Regulation Of Gene Expression (GO:0010608)	Post-Transcriptional Regulation Of Gene Expression (GO:0010608)	3	3/57	0.05263157894736842	57	0.0004646939002139001	0.0309057739565799	YTHDC1;NOLC1;GCN1
+Negative Regulation Of Cellular Biosynthetic Process (GO:0031327)	Negative Regulation Of Cellular Biosynthetic Process (GO:0031327)	4	4/137	0.029197080291970802	137	0.0004756360924467184	0.0309057739565799	ZAR1L;UBR4;EP300;PATL2
+Negative Regulation Of Nucleocytoplasmic Transport (GO:0046823)	Negative Regulation Of Nucleocytoplasmic Transport (GO:0046823)	2	2/14	0.14285714285714285	14	0.0006143435877808394	0.0309057739565799	TPR;NUP153
+Nuclear Pore Organization (GO:0006999)	Nuclear Pore Organization (GO:0006999)	2	2/14	0.14285714285714285	14	0.0006143435877808394	0.0309057739565799	TPR;NUP153
+RNA Export From Nucleus (GO:0006405)	RNA Export From Nucleus (GO:0006405)	3	3/65	0.046153846153846156	65	0.000683420062921915	0.0309057739565799	YTHDC1;TPR;NUP153
+Androgen Receptor Signaling Pathway (GO:0030521)	Androgen Receptor Signaling Pathway (GO:0030521)	2	2/17	0.11764705882352941	17	0.0009134779480079396	0.0337986840762937	TMF1;ARID1A
+Intracellular Estrogen Receptor Signaling Pathway (GO:0030520)	Intracellular Estrogen Receptor Signaling Pathway (GO:0030520)	2	2/17	0.11764705882352941	17	0.0009134779480079396	0.0337986840762937	ARID1A;SAFB
+Import Into Nucleus (GO:0051170)	Import Into Nucleus (GO:0051170)	3	3/74	0.04054054054054054	74	0.0009973504786278135	0.03382680373346	TPR;KPNA7;NUP153
+Pore Complex Assembly (GO:0046931)	Pore Complex Assembly (GO:0046931)	2	2/19	0.10526315789473684	19	0.0011446742913488	0.0350421128982752	TPR;NUP153
+Protein Import Into Nucleus (GO:0006606)	Protein Import Into Nucleus (GO:0006606)	3	3/79	0.0379746835443038	79	0.0012053798048546	0.0350421128982752	TPR;KPNA7;NUP153
+Establishment Of Protein Localization To Organelle (GO:0072594)	Establishment Of Protein Localization To Organelle (GO:0072594)	3	3/85	0.03529411764705882	85	0.0014887819789688	0.0403956176960223	TPR;KPNA7;NUP153
+Positive Regulation Of Protein Import Into Nucleus (GO:0042307)	Positive Regulation Of Protein Import Into Nucleus (GO:0042307)	2	2/28	0.07142857142857142	28	0.0024920299343631	0.0633910114553618	TPR;EP300
+Negative Regulation Of Translation (GO:0017148)	Negative Regulation Of Translation (GO:0017148)	3	3/107	0.028037383177570093	107	0.0028717623388725	0.0687533689365359	ZAR1L;TPR;PATL2
+Chromatin Remodeling (GO:0006338)	Chromatin Remodeling (GO:0006338)	4	4/228	0.017543859649122806	228	0.0031109918933912	0.0703429833672352	CECR2;TRIP12;ARID1A;EZHIP
+Regulation Of mRNA Processing (GO:0050684)	Regulation Of mRNA Processing (GO:0050684)	2	2/35	0.05714285714285714	35	0.0038764392228193	0.0830374086151298	YTHDC1;SAFB
+Protein Localization To Nucleus (GO:0034504)	Protein Localization To Nucleus (GO:0034504)	3	3/122	0.02459016393442623	122	0.0041542291090751	0.0845385623696789	TPR;KPNA7;NUP153
+Regulation Of Protein Import Into Nucleus (GO:0042306)	Regulation Of Protein Import Into Nucleus (GO:0042306)	2	2/38	0.05263157894736842	38	0.0045568847816412	0.0848522435687847	TPR;EP300
+RNA Transport (GO:0050658)	RNA Transport (GO:0050658)	2	2/39	0.05128205128205128	39	0.0047950899314055	0.0848522435687847	TPR;NUP153
+Nuclear Transport (GO:0051169)	Nuclear Transport (GO:0051169)	2	2/39	0.05128205128205128	39	0.0047950899314055	0.0848522435687847	TPR;NUP153
+Regulation Of Amide Metabolic Process (GO:0034248)	Regulation Of Amide Metabolic Process (GO:0034248)	2	2/41	0.04878048780487805	41	0.0052884017396872	0.089682479502196	NOLC1;GCN1
+Chromatin Organization (GO:0006325)	Chromatin Organization (GO:0006325)	4	4/268	0.014925373134328358	268	0.005517189738617	0.0898198489446858	CECR2;SAFB;ARID1A;EZHIP
+Positive Regulation Of Nucleocytoplasmic Transport (GO:0046824)	Positive Regulation Of Nucleocytoplasmic Transport (GO:0046824)	2	2/44	0.045454545454545456	44	0.0060701685595865	0.0950214847596817	TPR;EP300
+Nuclear Export (GO:0051168)	Nuclear Export (GO:0051168)	2	2/49	0.04081632653061224	49	0.0074825779929044	0.1127929349300784	TPR;NUP153
+Nucleocytoplasmic Transport (GO:0006913)	Nucleocytoplasmic Transport (GO:0006913)	2	2/50	0.04	50	0.0077812124839393	0.1131054814629752	TPR;NUP153
+Regulation Of Macromolecule Biosynthetic Process (GO:0010556)	Regulation Of Macromolecule Biosynthetic Process (GO:0010556)	2	2/53	0.03773584905660377	53	0.0087088930891702	0.1222248099066306	NOLC1;GCN1
+Proteasome-Mediated Ubiquitin-Dependent Protein Catabolic Process (GO:0043161)	Proteasome-Mediated Ubiquitin-Dependent Protein Catabolic Process (GO:0043161)	4	4/319	0.012539184952978056	319	0.0100703310988855	0.1260651559884453	CDC20B;AMN1;UBE4A;TRIP12
+mRNA Transport (GO:0051028)	mRNA Transport (GO:0051028)	2	2/58	0.034482758620689655	58	0.0103592144891482	0.1260651559884453	YTHDC1;TPR
+protein-DNA Complex Organization (GO:0071824)	protein-DNA Complex Organization (GO:0071824)	2	2/60	0.03333333333333333	60	0.0110551402595005	0.1260651559884453	SAFB;EZHIP
+Fat Cell Differentiation (GO:0045444)	Fat Cell Differentiation (GO:0045444)	2	2/62	0.03225806451612903	62	0.0117711818657454	0.1260651559884453	OSBPL8;EP300
+mRNA Export From Nucleus (GO:0006406)	mRNA Export From Nucleus (GO:0006406)	2	2/62	0.03225806451612903	62	0.0117711818657454	0.1260651559884453	YTHDC1;TPR
+Negative Regulation Of Endoplasmic Reticulum Calcium Ion Concentration (GO:0032471)	Negative Regulation Of Endoplasmic Reticulum Calcium Ion Concentration (GO:0032471)	1	1/5	0.2	5	0.0131811515812902	0.1260651559884453	THADA
+Negative Regulation Of Sequestering Of Triglyceride (GO:0010891)	Negative Regulation Of Sequestering Of Triglyceride (GO:0010891)	1	1/5	0.2	5	0.0131811515812902	0.1260651559884453	OSBPL8
+Regulation Of mRNA Export From Nucleus (GO:0010793)	Regulation Of mRNA Export From Nucleus (GO:0010793)	1	1/5	0.2	5	0.0131811515812902	0.1260651559884453	TPR
+Neuroblast Proliferation (GO:0007405)	Neuroblast Proliferation (GO:0007405)	1	1/5	0.2	5	0.0131811515812902	0.1260651559884453	PLXNB2
+Regulation Of Ribonucleoprotein Complex Localization (GO:2000197)	Regulation Of Ribonucleoprotein Complex Localization (GO:2000197)	1	1/5	0.2	5	0.0131811515812902	0.1260651559884453	TPR
+Dendrite Extension (GO:0097484)	Dendrite Extension (GO:0097484)	1	1/5	0.2	5	0.0131811515812902	0.1260651559884453	SLC9A6
+Ear Development (GO:0043583)	Ear Development (GO:0043583)	1	1/5	0.2	5	0.0131811515812902	0.1260651559884453	SHROOM2
+tRNA Modification (GO:0006400)	tRNA Modification (GO:0006400)	2	2/67	0.029850746268656716	67	0.0136478264148213	0.1260651559884453	QTRT2;THADA
+Modification-Dependent Protein Catabolic Process (GO:0019941)	Modification-Dependent Protein Catabolic Process (GO:0019941)	3	3/192	0.015625	192	0.0143545663373826	0.1260651559884453	UBR4;UBE4A;TRIP12
+Regulation Of Cellular Biosynthetic Process (GO:0031326)	Regulation Of Cellular Biosynthetic Process (GO:0031326)	2	2/70	0.02857142857142857	70	0.0148320510028186	0.1260651559884453	NOLC1;GCN1
+Regulation Of Hydrolase Activity (GO:0051336)	Regulation Of Hydrolase Activity (GO:0051336)	2	2/71	0.028169014084507043	71	0.0152363349672646	0.1260651559884453	RABGAP1;PLXNB2
+Positive Regulation Of Protein Localization To Nucleus (GO:1900182)	Positive Regulation Of Protein Localization To Nucleus (GO:1900182)	2	2/72	0.027777777777777776	72	0.0156453450710385	0.1260651559884453	TPR;EP300
+Auditory Receptor Cell Morphogenesis (GO:0002093)	Auditory Receptor Cell Morphogenesis (GO:0002093)	1	1/6	0.16666666666666666	6	0.0157968622983064	0.1260651559884453	TPRN
+Auditory Receptor Cell Stereocilium Organization (GO:0060088)	Auditory Receptor Cell Stereocilium Organization (GO:0060088)	1	1/6	0.16666666666666666	6	0.0157968622983064	0.1260651559884453	TPRN
+protein-DNA Covalent Cross-Linking Repair (GO:0106300)	protein-DNA Covalent Cross-Linking Repair (GO:0106300)	1	1/6	0.16666666666666666	6	0.0157968622983064	0.1260651559884453	GCNA
+Pyrimidine Ribonucleotide Biosynthetic Process (GO:0009220)	Pyrimidine Ribonucleotide Biosynthetic Process (GO:0009220)	1	1/6	0.16666666666666666	6	0.0157968622983064	0.1260651559884453	CAD
+Citrulline Metabolic Process (GO:0000052)	Citrulline Metabolic Process (GO:0000052)	1	1/6	0.16666666666666666	6	0.0157968622983064	0.1260651559884453	CAD
+Regulation Of Plasma Membrane Bounded Cell Projection Assembly (GO:0120032)	Regulation Of Plasma Membrane Bounded Cell Projection Assembly (GO:0120032)	2	2/75	0.02666666666666667	75	0.0169004638400652	0.1291577401332533	RABGAP1;MYO10
+Regulation Of Heterochromatin Formation (GO:0031445)	Regulation Of Heterochromatin Formation (GO:0031445)	1	1/7	0.14285714285714285	7	0.0184057713212007	0.1291577401332533	TPR
+Negative Regulation Of Protein K63-linked Ubiquitination (GO:1900045)	Negative Regulation Of Protein K63-linked Ubiquitination (GO:1900045)	1	1/7	0.14285714285714285	7	0.0184057713212007	0.1291577401332533	TRIP12
+Phosphatidylserine Acyl-Chain Remodeling (GO:0036150)	Phosphatidylserine Acyl-Chain Remodeling (GO:0036150)	1	1/7	0.14285714285714285	7	0.0184057713212007	0.1291577401332533	OSBPL8
+Cellular Response To Interferon-Alpha (GO:0035457)	Cellular Response To Interferon-Alpha (GO:0035457)	1	1/7	0.14285714285714285	7	0.0184057713212007	0.1291577401332533	TPR
+Regulation Of ATPase-coupled Calcium Transmembrane Transporter Activity (GO:1901894)	Regulation Of ATPase-coupled Calcium Transmembrane Transporter Activity (GO:1901894)	1	1/7	0.14285714285714285	7	0.0184057713212007	0.1291577401332533	THADA
+Deadenylation-Dependent Decapping Of Nuclear-Transcribed mRNA (GO:0000290)	Deadenylation-Dependent Decapping Of Nuclear-Transcribed mRNA (GO:0000290)	1	1/7	0.14285714285714285	7	0.0184057713212007	0.1291577401332533	PATL2
+Cytoskeleton-Dependent Cytokinesis (GO:0061640)	Cytoskeleton-Dependent Cytokinesis (GO:0061640)	2	2/81	0.024691358024691357	81	0.0195347097808812	0.1347563878104861	CECR2;KIF23
+Epigenetic Regulation Of Gene Expression (GO:0040029)	Epigenetic Regulation Of Gene Expression (GO:0040029)	2	2/83	0.024096385542168676	83	0.0204487652072749	0.1361733642837767	EP300;EZHIP
+Internal Protein Amino Acid Acetylation (GO:0006475)	Internal Protein Amino Acid Acetylation (GO:0006475)	1	1/8	0.125	8	0.0210078957630911	0.1361733642837767	EP300
+Semaphorin-Plexin Signaling Pathway Involved In Axon Guidance (GO:1902287)	Semaphorin-Plexin Signaling Pathway Involved In Axon Guidance (GO:1902287)	1	1/8	0.125	8	0.0210078957630911	0.1361733642837767	PLXNB2
+Regulation Of Double-Strand Break Repair (GO:2000779)	Regulation Of Double-Strand Break Repair (GO:2000779)	2	2/88	0.022727272727272728	88	0.0228106365369672	0.1361733642837767	TRIP12;ARID1A
+Excitatory Synapse Assembly (GO:1904861)	Excitatory Synapse Assembly (GO:1904861)	1	1/9	0.1111111111111111	9	0.0236032527677602	0.1361733642837767	PLXNB2
+Apical Protein Localization (GO:0045176)	Apical Protein Localization (GO:0045176)	1	1/9	0.1111111111111111	9	0.0236032527677602	0.1361733642837767	SHROOM2
+Regulation Of Postsynaptic Neurotransmitter Receptor Activity (GO:0098962)	Regulation Of Postsynaptic Neurotransmitter Receptor Activity (GO:0098962)	1	1/9	0.1111111111111111	9	0.0236032527677602	0.1361733642837767	DLGAP4
+Camera-Type Eye Morphogenesis (GO:0048593)	Camera-Type Eye Morphogenesis (GO:0048593)	1	1/9	0.1111111111111111	9	0.0236032527677602	0.1361733642837767	SHROOM2
+Peptidyl-Lysine Acetylation (GO:0018394)	Peptidyl-Lysine Acetylation (GO:0018394)	1	1/9	0.1111111111111111	9	0.0236032527677602	0.1361733642837767	EP300
+Regulation Of RNA Polymerase II Regulatory Region Sequence-Specific DNA Binding (GO:1903025)	Regulation Of RNA Polymerase II Regulatory Region Sequence-Specific DNA Binding (GO:1903025)	1	1/9	0.1111111111111111	9	0.0236032527677602	0.1361733642837767	EP300
+Dosage Compensation (GO:0007549)	Dosage Compensation (GO:0007549)	1	1/9	0.1111111111111111	9	0.0236032527677602	0.1361733642837767	YTHDC1
+Positive Regulation Of Neuron Projection Development (GO:0010976)	Positive Regulation Of Neuron Projection Development (GO:0010976)	2	2/92	0.021739130434782608	92	0.0247773818256047	0.1361733642837767	EP300;PLXNB2
+Negative Regulation Of Amide Metabolic Process (GO:0034249)	Negative Regulation Of Amide Metabolic Process (GO:0034249)	2	2/93	0.021505376344086023	93	0.0252795878205352	0.1361733642837767	ZAR1L;PATL2
+Hematopoietic Stem Cell Proliferation (GO:0071425)	Hematopoietic Stem Cell Proliferation (GO:0071425)	1	1/10	0.1	10	0.0261918594705427	0.1361733642837767	YJEFN3
+Alpha-Amino Acid Biosynthetic Process (GO:1901607)	Alpha-Amino Acid Biosynthetic Process (GO:1901607)	1	1/10	0.1	10	0.0261918594705427	0.1361733642837767	CAD
+Regulation Of Mitotic Sister Chromatid Separation (GO:0010965)	Regulation Of Mitotic Sister Chromatid Separation (GO:0010965)	1	1/10	0.1	10	0.0261918594705427	0.1361733642837767	TPR
+Mitotic Spindle Elongation (GO:0000022)	Mitotic Spindle Elongation (GO:0000022)	1	1/10	0.1	10	0.0261918594705427	0.1361733642837767	KIF23
+Mitotic Spindle Midzone Assembly (GO:0051256)	Mitotic Spindle Midzone Assembly (GO:0051256)	1	1/10	0.1	10	0.0261918594705427	0.1361733642837767	KIF23
+Regulation Of Protein Metabolic Process (GO:0051246)	Regulation Of Protein Metabolic Process (GO:0051246)	2	2/96	0.020833333333333332	96	0.0268110563829108	0.1361733642837767	NOLC1;GCN1
+Negative Regulation Of Macromolecule Biosynthetic Process (GO:0010558)	Negative Regulation Of Macromolecule Biosynthetic Process (GO:0010558)	2	2/98	0.02040816326530612	98	0.0278524987743966	0.1361733642837767	ZAR1L;PATL2
+Positive Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090267)	Positive Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090267)	1	1/11	0.09090909090909091	11	0.0287737329936235	0.1361733642837767	TPR
+P-body Assembly (GO:0033962)	P-body Assembly (GO:0033962)	1	1/11	0.09090909090909091	11	0.0287737329936235	0.1361733642837767	PATL2
+Inner Ear Receptor Cell Stereocilium Organization (GO:0060122)	Inner Ear Receptor Cell Stereocilium Organization (GO:0060122)	1	1/11	0.09090909090909091	11	0.0287737329936235	0.1361733642837767	TPRN
+Positive Regulation Of Spindle Checkpoint (GO:0090232)	Positive Regulation Of Spindle Checkpoint (GO:0090232)	1	1/11	0.09090909090909091	11	0.0287737329936235	0.1361733642837767	TPR
+Methylguanosine-Cap Decapping (GO:0110156)	Methylguanosine-Cap Decapping (GO:0110156)	1	1/11	0.09090909090909091	11	0.0287737329936235	0.1361733642837767	PATL2
+Dosage Compensation By Inactivation Of X Chromosome (GO:0009048)	Dosage Compensation By Inactivation Of X Chromosome (GO:0009048)	1	1/11	0.09090909090909091	11	0.0287737329936235	0.1361733642837767	YTHDC1
+Regulation Of Cell Cycle Checkpoint (GO:1901976)	Regulation Of Cell Cycle Checkpoint (GO:1901976)	1	1/11	0.09090909090909091	11	0.0287737329936235	0.1361733642837767	WDR76
+rRNA Processing (GO:0006364)	rRNA Processing (GO:0006364)	2	2/101	0.019801980198019802	101	0.0294448707883256	0.137193531305941	LAS1L;NOLC1
+Regulation Of Chromosome Separation (GO:1905818)	Regulation Of Chromosome Separation (GO:1905818)	1	1/12	0.08333333333333333	12	0.0313488904458292	0.137193531305941	TPR
+Positive Regulation Of Protein Export From Nucleus (GO:0046827)	Positive Regulation Of Protein Export From Nucleus (GO:0046827)	1	1/12	0.08333333333333333	12	0.0313488904458292	0.137193531305941	TPR
+Cellular Component Maintenance (GO:0043954)	Cellular Component Maintenance (GO:0043954)	1	1/12	0.08333333333333333	12	0.0313488904458292	0.137193531305941	TPRN
+Cellular Response To Leucine Starvation (GO:1990253)	Cellular Response To Leucine Starvation (GO:1990253)	1	1/12	0.08333333333333333	12	0.0313488904458292	0.137193531305941	GCN1
+Regulation Of Actomyosin Structure Organization (GO:0110020)	Regulation Of Actomyosin Structure Organization (GO:0110020)	1	1/12	0.08333333333333333	12	0.0313488904458292	0.137193531305941	AKAP13
+Semaphorin-Plexin Signaling Pathway Involved In Neuron Projection Guidance (GO:1902285)	Semaphorin-Plexin Signaling Pathway Involved In Neuron Projection Guidance (GO:1902285)	1	1/12	0.08333333333333333	12	0.0313488904458292	0.137193531305941	PLXNB2
+Regulation Of Cellular Response To Stress (GO:0080135)	Regulation Of Cellular Response To Stress (GO:0080135)	2	2/107	0.018691588785046728	107	0.0327359896743093	0.1417398701855735	EP300;WDR76
+Positive Regulation Of Heterochromatin Formation (GO:0031453)	Positive Regulation Of Heterochromatin Formation (GO:0031453)	1	1/13	0.07692307692307693	13	0.0339173488988434	0.1423130000188586	TPR
+Glutamine Metabolic Process (GO:0006541)	Glutamine Metabolic Process (GO:0006541)	1	1/13	0.07692307692307693	13	0.0339173488988434	0.1423130000188586	CAD
+Negative Regulation Of Translational Initiation (GO:0045947)	Negative Regulation Of Translational Initiation (GO:0045947)	1	1/13	0.07692307692307693	13	0.0339173488988434	0.1423130000188586	TPR
+Negative Regulation Of Fatty Acid Biosynthetic Process (GO:0045717)	Negative Regulation Of Fatty Acid Biosynthetic Process (GO:0045717)	1	1/14	0.07142857142857142	14	0.0364791253950767	0.1458979233821973	UBR4
+Membrane Raft Organization (GO:0031579)	Membrane Raft Organization (GO:0031579)	1	1/14	0.07142857142857142	14	0.0364791253950767	0.1458979233821973	YJEFN3
+Regulation Of Sequestering Of Triglyceride (GO:0010889)	Regulation Of Sequestering Of Triglyceride (GO:0010889)	1	1/14	0.07142857142857142	14	0.0364791253950767	0.1458979233821973	OSBPL8
+Regulation Of Carbohydrate Catabolic Process (GO:0043470)	Regulation Of Carbohydrate Catabolic Process (GO:0043470)	1	1/14	0.07142857142857142	14	0.0364791253950767	0.1458979233821973	EP300
+Regulation Of Cellular Response To Heat (GO:1900034)	Regulation Of Cellular Response To Heat (GO:1900034)	1	1/15	0.06666666666666667	15	0.0390342369458394	0.1458979233821973	EP300
+Stem Cell Development (GO:0048864)	Stem Cell Development (GO:0048864)	1	1/15	0.06666666666666667	15	0.0390342369458394	0.1458979233821973	NOLC1
+Negative Regulation Of Gluconeogenesis (GO:0045721)	Negative Regulation Of Gluconeogenesis (GO:0045721)	1	1/15	0.06666666666666667	15	0.0390342369458394	0.1458979233821973	EP300
+N-terminal Protein Amino Acid Acetylation (GO:0006474)	N-terminal Protein Amino Acid Acetylation (GO:0006474)	1	1/15	0.06666666666666667	15	0.0390342369458394	0.1458979233821973	EP300
+Adenylate Cyclase-Activating Adrenergic Receptor Signaling Pathway (GO:0071880)	Adenylate Cyclase-Activating Adrenergic Receptor Signaling Pathway (GO:0071880)	1	1/15	0.06666666666666667	15	0.0390342369458394	0.1458979233821973	AKAP13
+Regulation Of mRNA Metabolic Process (GO:1903311)	Regulation Of mRNA Metabolic Process (GO:1903311)	1	1/15	0.06666666666666667	15	0.0390342369458394	0.1458979233821973	SAFB
+Positive Regulation Of Cell Cycle Process (GO:0090068)	Positive Regulation Of Cell Cycle Process (GO:0090068)	2	2/118	0.01694915254237288	118	0.0391234450337088	0.1458979233821973	TPR;KIF23
+Positive Regulation Of Cell Projection Organization (GO:0031346)	Positive Regulation Of Cell Projection Organization (GO:0031346)	2	2/118	0.01694915254237288	118	0.0391234450337088	0.1458979233821973	EP300;PLXNB2
+Establishment Of Melanosome Localization (GO:0032401)	Establishment Of Melanosome Localization (GO:0032401)	1	1/16	0.0625	16	0.0415827005217073	0.1458979233821973	SHROOM2
+DNA Repair-Dependent Chromatin Remodeling (GO:0140861)	DNA Repair-Dependent Chromatin Remodeling (GO:0140861)	1	1/16	0.0625	16	0.0415827005217073	0.1458979233821973	TRIP12
+Apoptotic Nuclear Changes (GO:0030262)	Apoptotic Nuclear Changes (GO:0030262)	1	1/16	0.0625	16	0.0415827005217073	0.1458979233821973	CECR2
+Regulation Of Nucleocytoplasmic Transport (GO:0046822)	Regulation Of Nucleocytoplasmic Transport (GO:0046822)	1	1/16	0.0625	16	0.0415827005217073	0.1458979233821973	TPR
+Maturation Of 5.8S rRNA (GO:0000460)	Maturation Of 5.8S rRNA (GO:0000460)	1	1/16	0.0625	16	0.0415827005217073	0.1458979233821973	LAS1L
+Positive Regulation By Host Of Viral Transcription (GO:0043923)	Positive Regulation By Host Of Viral Transcription (GO:0043923)	1	1/16	0.0625	16	0.0415827005217073	0.1458979233821973	EP300
+Negative Regulation Of ATP-dependent Activity (GO:0032780)	Negative Regulation Of ATP-dependent Activity (GO:0032780)	1	1/16	0.0625	16	0.0415827005217073	0.1458979233821973	THADA
+Gene Expression (GO:0010467)	Gene Expression (GO:0010467)	3	3/296	0.010135135135135136	296	0.0437031872197084	0.1460809141909089	ZAR1L;YTHDC1;TPR
+Positive Regulation Of Intracellular Protein Transport (GO:0090316)	Positive Regulation Of Intracellular Protein Transport (GO:0090316)	2	2/126	0.015873015873015872	126	0.0440419356381612	0.1460809141909089	TPR;EP300
+NLS-bearing Protein Import Into Nucleus (GO:0006607)	NLS-bearing Protein Import Into Nucleus (GO:0006607)	1	1/17	0.058823529411764705	17	0.0441245330608975	0.1460809141909089	KPNA7
+Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090266)	Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090266)	1	1/17	0.058823529411764705	17	0.0441245330608975	0.1460809141909089	TPR
+Regulation Of Tubulin Deacetylation (GO:0090043)	Regulation Of Tubulin Deacetylation (GO:0090043)	1	1/17	0.058823529411764705	17	0.0441245330608975	0.1460809141909089	EP300
+Response To Interferon-Alpha (GO:0035455)	Response To Interferon-Alpha (GO:0035455)	1	1/17	0.058823529411764705	17	0.0441245330608975	0.1460809141909089	TPR
+Regulation Of DNA Repair (GO:0006282)	Regulation Of DNA Repair (GO:0006282)	2	2/129	0.015503875968992248	129	0.0459429677254468	0.1460809141909089	TRIP12;ARID1A
+Negative Regulation Of Lipid Storage (GO:0010888)	Negative Regulation Of Lipid Storage (GO:0010888)	1	1/18	0.05555555555555555	18	0.0466597514614696	0.1460809141909089	OSBPL8
+Adrenergic Receptor Signaling Pathway (GO:0071875)	Adrenergic Receptor Signaling Pathway (GO:0071875)	1	1/18	0.05555555555555555	18	0.0466597514614696	0.1460809141909089	AKAP13
+Neural Crest Cell Differentiation (GO:0014033)	Neural Crest Cell Differentiation (GO:0014033)	1	1/18	0.05555555555555555	18	0.0466597514614696	0.1460809141909089	NOLC1
+Regulation Of Nervous System Process (GO:0031644)	Regulation Of Nervous System Process (GO:0031644)	1	1/18	0.05555555555555555	18	0.0466597514614696	0.1460809141909089	DLGAP4
+Regulation Of Protein Deacetylation (GO:0090311)	Regulation Of Protein Deacetylation (GO:0090311)	1	1/18	0.05555555555555555	18	0.0466597514614696	0.1460809141909089	EP300
+Melanosome Localization (GO:0032400)	Melanosome Localization (GO:0032400)	1	1/18	0.05555555555555555	18	0.0466597514614696	0.1460809141909089	SHROOM2
+Regulation Of DNA Damage Checkpoint (GO:2000001)	Regulation Of DNA Damage Checkpoint (GO:2000001)	1	1/18	0.05555555555555555	18	0.0466597514614696	0.1460809141909089	WDR76
+Negative Regulation Of Fatty Acid Metabolic Process (GO:0045922)	Negative Regulation Of Fatty Acid Metabolic Process (GO:0045922)	1	1/19	0.05263157894736842	19	0.049188372572355	0.1472034385069742	UBR4
+Stimulatory C-type Lectin Receptor Signaling Pathway (GO:0002223)	Stimulatory C-type Lectin Receptor Signaling Pathway (GO:0002223)	1	1/19	0.05263157894736842	19	0.049188372572355	0.1472034385069742	EP300
+DNA Catabolic Process (GO:0006308)	DNA Catabolic Process (GO:0006308)	1	1/19	0.05263157894736842	19	0.049188372572355	0.1472034385069742	CECR2
+Eye Morphogenesis (GO:0048592)	Eye Morphogenesis (GO:0048592)	1	1/19	0.05263157894736842	19	0.049188372572355	0.1472034385069742	SHROOM2
+Intrinsic Apoptotic Signaling Pathway In Response To DNA Damage By P53 Class Mediator (GO:0042771)	Intrinsic Apoptotic Signaling Pathway In Response To DNA Damage By P53 Class Mediator (GO:0042771)	1	1/19	0.05263157894736842	19	0.049188372572355	0.1472034385069742	EP300
+Cellular Response To Lectin (GO:1990858)	Cellular Response To Lectin (GO:1990858)	1	1/19	0.05263157894736842	19	0.049188372572355	0.1472034385069742	EP300
+Regulation Of Mitotic Spindle Assembly (GO:1901673)	Regulation Of Mitotic Spindle Assembly (GO:1901673)	1	1/20	0.05	20	0.051710413228189	0.1503295584562354	TPR
+Maturation Of LSU-rRNA (GO:0000470)	Maturation Of LSU-rRNA (GO:0000470)	1	1/20	0.05	20	0.051710413228189	0.1503295584562354	LAS1L
+Phosphatidylserine Metabolic Process (GO:0006658)	Phosphatidylserine Metabolic Process (GO:0006658)	1	1/20	0.05	20	0.051710413228189	0.1503295584562354	OSBPL8
+Endoplasmic Reticulum Calcium Ion Homeostasis (GO:0032469)	Endoplasmic Reticulum Calcium Ion Homeostasis (GO:0032469)	1	1/20	0.05	20	0.051710413228189	0.1503295584562354	THADA
+Anaphase-Promoting Complex-Dependent Catabolic Process (GO:0031145)	Anaphase-Promoting Complex-Dependent Catabolic Process (GO:0031145)	1	1/21	0.047619047619047616	21	0.0542258902012346	0.1543352259573602	CDC20B
+Positive Regulation Of Transcription Regulatory Region DNA Binding (GO:2000679)	Positive Regulation Of Transcription Regulatory Region DNA Binding (GO:2000679)	1	1/21	0.047619047619047616	21	0.0542258902012346	0.1543352259573602	EP300
+Sodium Ion Import Across Plasma Membrane (GO:0098719)	Sodium Ion Import Across Plasma Membrane (GO:0098719)	1	1/21	0.047619047619047616	21	0.0542258902012346	0.1543352259573602	SLC9A6
+Intracellular Protein Transport (GO:0006886)	Intracellular Protein Transport (GO:0006886)	3	3/325	0.009230769230769232	325	0.0549220570362489	0.1552310917621759	TPR;KPNA7;NUP153
+Regulation Of Intracellular Steroid Hormone Receptor Signaling Pathway (GO:0033143)	Regulation Of Intracellular Steroid Hormone Receptor Signaling Pathway (GO:0033143)	1	1/22	0.045454545454545456	22	0.0567348202331589	0.1560207556411871	EP300
+Regulation Of Protein Export From Nucleus (GO:0046825)	Regulation Of Protein Export From Nucleus (GO:0046825)	1	1/22	0.045454545454545456	22	0.0567348202331589	0.1560207556411871	TPR
+Protein Peptidyl-Prolyl Isomerization (GO:0000413)	Protein Peptidyl-Prolyl Isomerization (GO:0000413)	1	1/22	0.045454545454545456	22	0.0567348202331589	0.1560207556411871	PPIG
+Cytoskeleton-Dependent Intracellular Transport (GO:0030705)	Cytoskeleton-Dependent Intracellular Transport (GO:0030705)	1	1/22	0.045454545454545456	22	0.0567348202331589	0.1560207556411871	MYO10
+Negative Regulation Of Protein Metabolic Process (GO:0051248)	Negative Regulation Of Protein Metabolic Process (GO:0051248)	2	2/147	0.013605442176870748	147	0.0579584988628404	0.1583161680347386	ZAR1L;PATL2
+Regulation Of Cholesterol Transport (GO:0032374)	Regulation Of Cholesterol Transport (GO:0032374)	1	1/23	0.043478260869565216	23	0.0592372200228126	0.1586154509821365	YJEFN3
+Axon Extension (GO:0048675)	Axon Extension (GO:0048675)	1	1/23	0.043478260869565216	23	0.0592372200228126	0.1586154509821365	SLC9A6
+Rescue Of Stalled Ribosome (GO:0072344)	Rescue Of Stalled Ribosome (GO:0072344)	1	1/23	0.043478260869565216	23	0.0592372200228126	0.1586154509821365	GCN1
+Positive Regulation Of Transforming Growth Factor Beta Receptor Signaling Pathway (GO:0030511)	Positive Regulation Of Transforming Growth Factor Beta Receptor Signaling Pathway (GO:0030511)	1	1/24	0.041666666666666664	24	0.06173310622682	0.1610600912456138	EP300
+Regulation Of Proteolysis Involved In Protein Catabolic Process (GO:1903050)	Regulation Of Proteolysis Involved In Protein Catabolic Process (GO:1903050)	1	1/24	0.041666666666666664	24	0.06173310622682	0.1610600912456138	TMF1
+Regulation Of Supramolecular Fiber Organization (GO:1902903)	Regulation Of Supramolecular Fiber Organization (GO:1902903)	1	1/24	0.041666666666666664	24	0.06173310622682	0.1610600912456138	AKAP13
+Positive Regulation Of Cellular Response To Transforming Growth Factor Beta Stimulus (GO:1903846)	Positive Regulation Of Cellular Response To Transforming Growth Factor Beta Stimulus (GO:1903846)	1	1/24	0.041666666666666664	24	0.06173310622682	0.1610600912456138	EP300
+Positive Regulation Of Glucose Import (GO:0046326)	Positive Regulation Of Glucose Import (GO:0046326)	1	1/25	0.04	25	0.0642224954747202	0.162569458437677	OSBPL8
+Negative Regulation Of Lipid Biosynthetic Process (GO:0051055)	Negative Regulation Of Lipid Biosynthetic Process (GO:0051055)	1	1/25	0.04	25	0.0642224954747202	0.162569458437677	UBR4
+Activation Of Protein Kinase B Activity (GO:0032148)	Activation Of Protein Kinase B Activity (GO:0032148)	1	1/25	0.04	25	0.0642224954747202	0.162569458437677	OSBPL8
+Organophosphate Ester Transport (GO:0015748)	Organophosphate Ester Transport (GO:0015748)	1	1/25	0.04	25	0.0642224954747202	0.162569458437677	OSBPL8
+Spindle Assembly Checkpoint Signaling (GO:0071173)	Spindle Assembly Checkpoint Signaling (GO:0071173)	1	1/26	0.038461538461538464	26	0.0667054043220935	0.162569458437677	TPR
+Regulation Of Fatty Acid Biosynthetic Process (GO:0042304)	Regulation Of Fatty Acid Biosynthetic Process (GO:0042304)	1	1/26	0.038461538461538464	26	0.0667054043220935	0.162569458437677	UBR4
+Regulation Of Nucleotide-Excision Repair (GO:2000819)	Regulation Of Nucleotide-Excision Repair (GO:2000819)	1	1/26	0.038461538461538464	26	0.0667054043220935	0.162569458437677	ARID1A
+Camera-Type Eye Development (GO:0043010)	Camera-Type Eye Development (GO:0043010)	1	1/26	0.038461538461538464	26	0.0667054043220935	0.162569458437677	SHROOM2
+Protein Export From Nucleus (GO:0006611)	Protein Export From Nucleus (GO:0006611)	1	1/26	0.038461538461538464	26	0.0667054043220935	0.162569458437677	TPR
+Mitotic Spindle Assembly Checkpoint Signaling (GO:0007094)	Mitotic Spindle Assembly Checkpoint Signaling (GO:0007094)	1	1/26	0.038461538461538464	26	0.0667054043220935	0.162569458437677	TPR
+Mitotic Spindle Checkpoint Signaling (GO:0071174)	Mitotic Spindle Checkpoint Signaling (GO:0071174)	1	1/26	0.038461538461538464	26	0.0667054043220935	0.162569458437677	TPR
+Cardiac Muscle Cell Differentiation (GO:0055007)	Cardiac Muscle Cell Differentiation (GO:0055007)	1	1/27	0.037037037037037035	27	0.0691818493313732	0.1656294863404053	AKAP13
+Peptidyl-Proline Modification (GO:0018208)	Peptidyl-Proline Modification (GO:0018208)	1	1/27	0.037037037037037035	27	0.0691818493313732	0.1656294863404053	PPIG
+Regulation Of Androgen Receptor Signaling Pathway (GO:0060765)	Regulation Of Androgen Receptor Signaling Pathway (GO:0060765)	1	1/27	0.037037037037037035	27	0.0691818493313732	0.1656294863404053	EP300
+Negative Regulation Of Mitotic Metaphase/Anaphase Transition (GO:0045841)	Negative Regulation Of Mitotic Metaphase/Anaphase Transition (GO:0045841)	1	1/28	0.03571428571428571	28	0.0716518469864121	0.1675831855419351	TPR
+Primary Neural Tube Formation (GO:0014020)	Primary Neural Tube Formation (GO:0014020)	1	1/28	0.03571428571428571	28	0.0716518469864121	0.1675831855419351	PLXNB2
+Ubiquitin-Dependent Protein Catabolic Process (GO:0006511)	Ubiquitin-Dependent Protein Catabolic Process (GO:0006511)	3	3/367	0.008174386920980926	367	0.0733621756983684	0.1675831855419351	UBR4;UBE4A;TRIP12
+Brain Development (GO:0007420)	Brain Development (GO:0007420)	2	2/169	0.011834319526627219	169	0.0739349424168285	0.1675831855419351	SHROOM2;PLXNB2
+Tube Closure (GO:0060606)	Tube Closure (GO:0060606)	1	1/29	0.034482758620689655	29	0.07411541375319	0.1675831855419351	PLXNB2
+Integrated Stress Response Signaling (GO:0140467)	Integrated Stress Response Signaling (GO:0140467)	1	1/29	0.034482758620689655	29	0.07411541375319	0.1675831855419351	GCN1
+Regulation Of Neuron Migration (GO:2001222)	Regulation Of Neuron Migration (GO:2001222)	1	1/29	0.034482758620689655	29	0.07411541375319	0.1675831855419351	PLXNB2
+Protein Acetylation (GO:0006473)	Protein Acetylation (GO:0006473)	1	1/29	0.034482758620689655	29	0.07411541375319	0.1675831855419351	EP300
+mRNA Splice Site Recognition (GO:0006376)	mRNA Splice Site Recognition (GO:0006376)	1	1/29	0.034482758620689655	29	0.07411541375319	0.1675831855419351	YTHDC1
+Regulation Of Spindle Assembly (GO:0090169)	Regulation Of Spindle Assembly (GO:0090169)	1	1/29	0.034482758620689655	29	0.07411541375319	0.1675831855419351	TPR
+Innate Immune Response Activating Cell Surface Receptor Signaling Pathway (GO:0002220)	Innate Immune Response Activating Cell Surface Receptor Signaling Pathway (GO:0002220)	1	1/30	0.03333333333333333	30	0.0765725660346981	0.1693751868267508	EP300
+Response To Epidermal Growth Factor (GO:0070849)	Response To Epidermal Growth Factor (GO:0070849)	1	1/30	0.03333333333333333	30	0.0765725660346981	0.1693751868267508	TPR
+Negative Regulation Of Calcium Ion Transmembrane Transporter Activity (GO:1901020)	Negative Regulation Of Calcium Ion Transmembrane Transporter Activity (GO:1901020)	1	1/30	0.03333333333333333	30	0.0765725660346981	0.1693751868267508	THADA
+Negative Regulation Of Carbohydrate Metabolic Process (GO:0045912)	Negative Regulation Of Carbohydrate Metabolic Process (GO:0045912)	1	1/30	0.03333333333333333	30	0.0765725660346981	0.1693751868267508	EP300
+Regulation Of Neuron Projection Development (GO:0010975)	Regulation Of Neuron Projection Development (GO:0010975)	2	2/174	0.011494252873563218	174	0.0777444391041742	0.1701719118010958	EP300;PLXNB2
+Positive Regulation Of Glucose Transmembrane Transport (GO:0010828)	Positive Regulation Of Glucose Transmembrane Transport (GO:0010828)	1	1/31	0.03225806451612903	31	0.0790233202221304	0.1701719118010958	OSBPL8
+Regulation Of Gluconeogenesis (GO:0006111)	Regulation Of Gluconeogenesis (GO:0006111)	1	1/31	0.03225806451612903	31	0.0790233202221304	0.1701719118010958	EP300
+Glutamine Family Amino Acid Metabolic Process (GO:0009064)	Glutamine Family Amino Acid Metabolic Process (GO:0009064)	1	1/31	0.03225806451612903	31	0.0790233202221304	0.1701719118010958	CAD
+Positive Regulation Of Rho Protein Signal Transduction (GO:0035025)	Positive Regulation Of Rho Protein Signal Transduction (GO:0035025)	1	1/31	0.03225806451612903	31	0.0790233202221304	0.1701719118010958	AKAP13
+Regulation Of Cholesterol Efflux (GO:0010874)	Regulation Of Cholesterol Efflux (GO:0010874)	1	1/32	0.03125	32	0.0814676926408233	0.1717997456208036	YJEFN3
+Heterochromatin Formation (GO:0031507)	Heterochromatin Formation (GO:0031507)	1	1/32	0.03125	32	0.0814676926408233	0.1717997456208036	TRIP12
+Regulation Of Metaphase/Anaphase Transition Of Cell Cycle (GO:1902099)	Regulation Of Metaphase/Anaphase Transition Of Cell Cycle (GO:1902099)	1	1/32	0.03125	32	0.0814676926408233	0.1717997456208036	ARID1A
+Neural Tube Closure (GO:0001843)	Neural Tube Closure (GO:0001843)	1	1/32	0.03125	32	0.0814676926408233	0.1717997456208036	PLXNB2
+Actin Filament Bundle Assembly (GO:0051017)	Actin Filament Bundle Assembly (GO:0051017)	1	1/33	0.030303030303030304	33	0.0839056995776139	0.173348323492837	SHROOM2
+Actin Filament Bundle Organization (GO:0061572)	Actin Filament Bundle Organization (GO:0061572)	1	1/33	0.030303030303030304	33	0.0839056995776139	0.173348323492837	SHROOM2
+Negative Regulation Of Small Molecule Metabolic Process (GO:0062014)	Negative Regulation Of Small Molecule Metabolic Process (GO:0062014)	1	1/33	0.030303030303030304	33	0.0839056995776139	0.173348323492837	EP300
+Regulation Of G0 To G1 Transition (GO:0070316)	Regulation Of G0 To G1 Transition (GO:0070316)	1	1/33	0.030303030303030304	33	0.0839056995776139	0.173348323492837	ARID1A
+Transcription Initiation-Coupled Chromatin Remodeling (GO:0045815)	Transcription Initiation-Coupled Chromatin Remodeling (GO:0045815)	1	1/34	0.029411764705882353	34	0.0863373572956909	0.175696522096731	EP300
+Response To Estrogen (GO:0043627)	Response To Estrogen (GO:0043627)	1	1/34	0.029411764705882353	34	0.0863373572956909	0.175696522096731	EP300
+Semaphorin-Plexin Signaling Pathway (GO:0071526)	Semaphorin-Plexin Signaling Pathway (GO:0071526)	1	1/34	0.029411764705882353	34	0.0863373572956909	0.175696522096731	PLXNB2
+Intrinsic Apoptotic Signaling Pathway By P53 Class Mediator (GO:0072332)	Intrinsic Apoptotic Signaling Pathway By P53 Class Mediator (GO:0072332)	1	1/35	0.02857142857142857	35	0.0887626820159513	0.1797333909477224	EP300
+tRNA Methylation (GO:0030488)	tRNA Methylation (GO:0030488)	1	1/36	0.027777777777777776	36	0.0911816899061871	0.1810290136186251	THADA
+Regulation Of Glucose Import (GO:0046324)	Regulation Of Glucose Import (GO:0046324)	1	1/36	0.027777777777777776	36	0.0911816899061871	0.1810290136186251	OSBPL8
+Regulation Of Intracellular Protein Transport (GO:0033157)	Regulation Of Intracellular Protein Transport (GO:0033157)	1	1/36	0.027777777777777776	36	0.0911816899061871	0.1810290136186251	TPR
+Protein Destabilization (GO:0031648)	Protein Destabilization (GO:0031648)	1	1/36	0.027777777777777776	36	0.0911816899061871	0.1810290136186251	EP300
+Positive Regulation Of Receptor Signaling Pathway Via JAK-STAT (GO:0046427)	Positive Regulation Of Receptor Signaling Pathway Via JAK-STAT (GO:0046427)	1	1/37	0.02702702702702703	37	0.093594397093596	0.1822627732875291	EP300
+Positive Regulation Of Receptor Signaling Pathway Via STAT (GO:1904894)	Positive Regulation Of Receptor Signaling Pathway Via STAT (GO:1904894)	1	1/37	0.02702702702702703	37	0.093594397093596	0.1822627732875291	EP300
+Protein Acylation (GO:0043543)	Protein Acylation (GO:0043543)	1	1/37	0.02702702702702703	37	0.093594397093596	0.1822627732875291	EP300
+Melanosome Organization (GO:0032438)	Melanosome Organization (GO:0032438)	1	1/37	0.02702702702702703	37	0.093594397093596	0.1822627732875291	SHROOM2
+Positive Regulation Of Myoblast Differentiation (GO:0045663)	Positive Regulation Of Myoblast Differentiation (GO:0045663)	1	1/38	0.02631578947368421	38	0.0960008196778679	0.1828730424715105	ARID1A
+Positive Regulation Of Axonogenesis (GO:0050772)	Positive Regulation Of Axonogenesis (GO:0050772)	1	1/38	0.02631578947368421	38	0.0960008196778679	0.1828730424715105	PLXNB2
+Positive Regulation Of Intracellular Transport (GO:0032388)	Positive Regulation Of Intracellular Transport (GO:0032388)	1	1/39	0.02564102564102564	39	0.0984009737131715	0.1828730424715105	TPR
+Positive Regulation Of Lymphocyte Differentiation (GO:0045621)	Positive Regulation Of Lymphocyte Differentiation (GO:0045621)	1	1/39	0.02564102564102564	39	0.0984009737131715	0.1828730424715105	ARID1A
+Heterochromatin Organization (GO:0070828)	Heterochromatin Organization (GO:0070828)	1	1/39	0.02564102564102564	39	0.0984009737131715	0.1828730424715105	TRIP12
+Internal Peptidyl-Lysine Acetylation (GO:0018393)	Internal Peptidyl-Lysine Acetylation (GO:0018393)	1	1/39	0.02564102564102564	39	0.0984009737131715	0.1828730424715105	EP300
+Regulation Of Mitotic Spindle Organization (GO:0060236)	Regulation Of Mitotic Spindle Organization (GO:0060236)	1	1/39	0.02564102564102564	39	0.0984009737131715	0.1828730424715105	TPR
+Neuron Projection Extension (GO:1990138)	Neuron Projection Extension (GO:1990138)	1	1/39	0.02564102564102564	39	0.0984009737131715	0.1828730424715105	SLC9A6
+Nuclear-Transcribed mRNA Catabolic Process, Deadenylation-Dependent Decay (GO:0000288)	Nuclear-Transcribed mRNA Catabolic Process, Deadenylation-Dependent Decay (GO:0000288)	1	1/39	0.02564102564102564	39	0.0984009737131715	0.1828730424715105	PATL2
+Positive Regulation Of Cytokinesis (GO:0032467)	Positive Regulation Of Cytokinesis (GO:0032467)	1	1/39	0.02564102564102564	39	0.0984009737131715	0.1828730424715105	KIF23
+Regulation Of Glycolytic Process (GO:0006110)	Regulation Of Glycolytic Process (GO:0006110)	1	1/40	0.025	40	0.100794875200464	0.1839619471147482	EP300
+Positive Regulation Of Stem Cell Population Maintenance (GO:1902459)	Positive Regulation Of Stem Cell Population Maintenance (GO:1902459)	1	1/40	0.025	40	0.100794875200464	0.1839619471147482	ARID1A
+Regulation Of Small Molecule Metabolic Process (GO:0062012)	Regulation Of Small Molecule Metabolic Process (GO:0062012)	1	1/40	0.025	40	0.100794875200464	0.1839619471147482	EP300
+Cellular Response To Heat (GO:0034605)	Cellular Response To Heat (GO:0034605)	1	1/40	0.025	40	0.100794875200464	0.1839619471147482	TPR
+Response To Amino Acid Starvation (GO:1990928)	Response To Amino Acid Starvation (GO:1990928)	1	1/41	0.024390243902439025	41	0.1031825401268783	0.1874789903198191	GCN1
+Translational Elongation (GO:0006414)	Translational Elongation (GO:0006414)	1	1/42	0.023809523809523808	42	0.1055639844126968	0.1876180858339198	GCN1
+Regulation Of Neurotransmitter Receptor Activity (GO:0099601)	Regulation Of Neurotransmitter Receptor Activity (GO:0099601)	1	1/42	0.023809523809523808	42	0.1055639844126968	0.1876180858339198	DLGAP4
+Cellular Response To Amino Acid Starvation (GO:0034198)	Cellular Response To Amino Acid Starvation (GO:0034198)	1	1/42	0.023809523809523808	42	0.1055639844126968	0.1876180858339198	GCN1
+Modulation By Host Of Symbiont Process (GO:0051851)	Modulation By Host Of Symbiont Process (GO:0051851)	1	1/42	0.023809523809523808	42	0.1055639844126968	0.1876180858339198	EP300
+Regulation Of Axonogenesis (GO:0050770)	Regulation Of Axonogenesis (GO:0050770)	1	1/42	0.023809523809523808	42	0.1055639844126968	0.1876180858339198	PLXNB2
+Regulation Of Filopodium Assembly (GO:0051489)	Regulation Of Filopodium Assembly (GO:0051489)	1	1/43	0.023255813953488372	43	0.107939223970153	0.1901786327093173	MYO10
+Positive Regulation Of Cell Division (GO:0051781)	Positive Regulation Of Cell Division (GO:0051781)	1	1/43	0.023255813953488372	43	0.107939223970153	0.1901786327093173	KIF23
+Regulation Of GTPase Activity (GO:0043087)	Regulation Of GTPase Activity (GO:0043087)	2	2/214	0.009345794392523364	214	0.110244928758705	0.1910445437373623	RABGAP1;PLXNB2
+Neural Crest Cell Development (GO:0014032)	Neural Crest Cell Development (GO:0014032)	1	1/44	0.022727272727272728	44	0.1103082746395089	0.1910445437373623	NOLC1
+Nucleus Organization (GO:0006997)	Nucleus Organization (GO:0006997)	1	1/44	0.022727272727272728	44	0.1103082746395089	0.1910445437373623	TPR
+Mitotic Spindle Assembly (GO:0090307)	Mitotic Spindle Assembly (GO:0090307)	1	1/44	0.022727272727272728	44	0.1103082746395089	0.1910445437373623	KIF23
+Regulation Of Cellular Metabolic Process (GO:0031323)	Regulation Of Cellular Metabolic Process (GO:0031323)	1	1/45	0.022222222222222223	45	0.1126711522365028	0.1934901221951757	EP300
+Regulation Of Protein Modification Process (GO:0031399)	Regulation Of Protein Modification Process (GO:0031399)	1	1/45	0.022222222222222223	45	0.1126711522365028	0.1934901221951757	PLXNB2
+Regulation Of Signal Transduction By P53 Class Mediator (GO:1901796)	Regulation Of Signal Transduction By P53 Class Mediator (GO:1901796)	1	1/47	0.02127659574468085	47	0.1173784512751789	0.1998871534267692	EP300
+Regulation Of T Cell Differentiation (GO:0045580)	Regulation Of T Cell Differentiation (GO:0045580)	1	1/47	0.02127659574468085	47	0.1173784512751789	0.1998871534267692	ARID1A
+Protein Polyubiquitination (GO:0000209)	Protein Polyubiquitination (GO:0000209)	2	2/226	0.008849557522123894	226	0.1206004394368433	0.2045182452116469	UBE4A;TRIP12
+Regulation Of Mitotic Metaphase/Anaphase Transition (GO:0030071)	Regulation Of Mitotic Metaphase/Anaphase Transition (GO:0030071)	1	1/49	0.02040816326530612	49	0.122061246826909	0.2052848242088924	ARID1A
+Intrinsic Apoptotic Signaling Pathway In Response To DNA Damage (GO:0008630)	Intrinsic Apoptotic Signaling Pathway In Response To DNA Damage (GO:0008630)	1	1/49	0.02040816326530612	49	0.122061246826909	0.2052848242088924	EP300
+Regulation Of Mitochondrion Organization (GO:0010821)	Regulation Of Mitochondrion Organization (GO:0010821)	1	1/50	0.02	50	0.1243934949128716	0.207492427989913	EP300
+Plasma Membrane Bounded Cell Projection Morphogenesis (GO:0120039)	Plasma Membrane Bounded Cell Projection Morphogenesis (GO:0120039)	1	1/50	0.02	50	0.1243934949128716	0.207492427989913	SLC9A6
+Positive Regulation Of Ras Protein Signal Transduction (GO:0046579)	Positive Regulation Of Ras Protein Signal Transduction (GO:0046579)	1	1/51	0.0196078431372549	51	0.1267196639764532	0.2105098091363937	AKAP13
+Sprouting Angiogenesis (GO:0002040)	Sprouting Angiogenesis (GO:0002040)	1	1/52	0.019230769230769232	52	0.1290397695662701	0.2117709121510965	YJEFN3
+Regulation Of Protein Localization To Nucleus (GO:1900180)	Regulation Of Protein Localization To Nucleus (GO:1900180)	1	1/52	0.019230769230769232	52	0.1290397695662701	0.2117709121510965	TPR
+Cardiac Muscle Tissue Development (GO:0048738)	Cardiac Muscle Tissue Development (GO:0048738)	1	1/52	0.019230769230769232	52	0.1290397695662701	0.2117709121510965	AKAP13
+Regulation Of Proteasomal Protein Catabolic Process (GO:0061136)	Regulation Of Proteasomal Protein Catabolic Process (GO:0061136)	1	1/53	0.018867924528301886	53	0.1313538272083178	0.2121468558483545	TMF1
+Regulation Of Receptor Signaling Pathway Via JAK-STAT (GO:0046425)	Regulation Of Receptor Signaling Pathway Via JAK-STAT (GO:0046425)	1	1/53	0.018867924528301886	53	0.1313538272083178	0.2121468558483545	EP300
+Positive Regulation Of NIK/NF-kappaB Signaling (GO:1901224)	Positive Regulation Of NIK/NF-kappaB Signaling (GO:1901224)	1	1/53	0.018867924528301886	53	0.1313538272083178	0.2121468558483545	EP300
+Regulation Of Alternative mRNA Splicing, Via Spliceosome (GO:0000381)	Regulation Of Alternative mRNA Splicing, Via Spliceosome (GO:0000381)	1	1/53	0.018867924528301886	53	0.1313538272083178	0.2121468558483545	YTHDC1
+Regulation Of Myoblast Differentiation (GO:0045661)	Regulation Of Myoblast Differentiation (GO:0045661)	1	1/54	0.018518518518518517	54	0.1336618523140121	0.2141747003614288	ARID1A
+Ribosomal Large Subunit Biogenesis (GO:0042273)	Ribosomal Large Subunit Biogenesis (GO:0042273)	1	1/54	0.018518518518518517	54	0.1336618523140121	0.2141747003614288	LAS1L
+Positive Regulation Of Gene Expression (GO:0010628)	Positive Regulation Of Gene Expression (GO:0010628)	3	3/480	0.00625	480	0.1342297887325221	0.2142412706436725	EP300;PLXNB2;ARID1A
+Regulation Of Stem Cell Population Maintenance (GO:2000036)	Regulation Of Stem Cell Population Maintenance (GO:2000036)	1	1/56	0.017857142857142856	56	0.1382598666864779	0.2198115849273302	ARID1A
+Eye Development (GO:0001654)	Eye Development (GO:0001654)	1	1/58	0.017241379310344827	58	0.1428339355962912	0.2244533273656005	SHROOM2
+Peptidyl-Threonine Phosphorylation (GO:0018107)	Peptidyl-Threonine Phosphorylation (GO:0018107)	1	1/58	0.017241379310344827	58	0.1428339355962912	0.2244533273656005	CAD
+Response To Organic Cyclic Compound (GO:0014070)	Response To Organic Cyclic Compound (GO:0014070)	1	1/58	0.017241379310344827	58	0.1428339355962912	0.2244533273656005	TPR
+Negative Regulation Of Protein-Containing Complex Assembly (GO:0031333)	Negative Regulation Of Protein-Containing Complex Assembly (GO:0031333)	1	1/59	0.01694915254237288	59	0.145112028750085	0.2245650026664813	EP300
+Regulation Of Multicellular Organismal Development (GO:2000026)	Regulation Of Multicellular Organismal Development (GO:2000026)	1	1/59	0.01694915254237288	59	0.145112028750085	0.2245650026664813	TRIP12
+Phospholipid Transport (GO:0015914)	Phospholipid Transport (GO:0015914)	1	1/59	0.01694915254237288	59	0.145112028750085	0.2245650026664813	OSBPL8
+Mitotic Cytokinesis (GO:0000281)	Mitotic Cytokinesis (GO:0000281)	1	1/59	0.01694915254237288	59	0.145112028750085	0.2245650026664813	KIF23
+Histone Acetylation (GO:0016573)	Histone Acetylation (GO:0016573)	1	1/60	0.016666666666666666	60	0.1473841813494661	0.226359855883897	EP300
+Homophilic Cell Adhesion Via Plasma Membrane Adhesion Molecules (GO:0007156)	Homophilic Cell Adhesion Via Plasma Membrane Adhesion Molecules (GO:0007156)	1	1/60	0.016666666666666666	60	0.1473841813494661	0.226359855883897	PLXNB2
+Spliceosomal Complex Assembly (GO:0000245)	Spliceosomal Complex Assembly (GO:0000245)	1	1/62	0.016129032258064516	62	0.151910725680046	0.2307002438499207	YTHDC1
+Regulation Of Embryonic Development (GO:0045995)	Regulation Of Embryonic Development (GO:0045995)	1	1/62	0.016129032258064516	62	0.151910725680046	0.2307002438499207	TRIP12
+RNA Methylation (GO:0001510)	RNA Methylation (GO:0001510)	1	1/62	0.016129032258064516	62	0.151910725680046	0.2307002438499207	THADA
+Regulation Of Cellular Catabolic Process (GO:0031329)	Regulation Of Cellular Catabolic Process (GO:0031329)	1	1/63	0.015873015873015872	63	0.1541651476447922	0.2332535877004849	EP300
+Positive Regulation Of T Cell Differentiation (GO:0045582)	Positive Regulation Of T Cell Differentiation (GO:0045582)	1	1/64	0.015625	64	0.1564136896293322	0.2357791543671785	ARID1A
+Cellular Response To Light Stimulus (GO:0071482)	Cellular Response To Light Stimulus (GO:0071482)	1	1/65	0.015384615384615385	65	0.1586563666396397	0.2374012544938727	EP300
+Regulation Of Translational Initiation (GO:0006446)	Regulation Of Translational Initiation (GO:0006446)	1	1/65	0.015384615384615385	65	0.1586563666396397	0.2374012544938727	TPR
+Peptidyl-Threonine Modification (GO:0018210)	Peptidyl-Threonine Modification (GO:0018210)	1	1/66	0.015151515151515152	66	0.1608931937032813	0.2398664096602033	CAD
+Positive Regulation Of Intracellular Signal Transduction (GO:1902533)	Positive Regulation Of Intracellular Signal Transduction (GO:1902533)	3	3/525	0.005714285714285714	525	0.1622060264725972	0.2409410685195148	AKAP13;OSBPL8;EP300
+Positive Regulation Of Protein Transport (GO:0051222)	Positive Regulation Of Protein Transport (GO:0051222)	1	1/70	0.014285714285714285	70	0.1697823011464876	0.2494635255112651	TPR
+Regulation Of Notch Signaling Pathway (GO:0008593)	Regulation Of Notch Signaling Pathway (GO:0008593)	1	1/70	0.014285714285714285	70	0.1697823011464876	0.2494635255112651	YJEFN3
+Sensory Organ Development (GO:0007423)	Sensory Organ Development (GO:0007423)	1	1/70	0.014285714285714285	70	0.1697823011464876	0.2494635255112651	SHROOM2
+Regulation Of Cilium Assembly (GO:1902017)	Regulation Of Cilium Assembly (GO:1902017)	1	1/71	0.014084507042253521	71	0.1719901021729171	0.2508481926429269	RABGAP1
+Synapse Assembly (GO:0007416)	Synapse Assembly (GO:0007416)	1	1/71	0.014084507042253521	71	0.1719901021729171	0.2508481926429269	PLXNB2
+Central Nervous System Development (GO:0007417)	Central Nervous System Development (GO:0007417)	2	2/283	0.007067137809187279	283	0.1725736951843232	0.2508481926429269	SHROOM2;PLXNB2
+Regulation Of Cellular Localization (GO:0060341)	Regulation Of Cellular Localization (GO:0060341)	1	1/72	0.013888888888888888	72	0.1741921424776707	0.2514049715901134	TPR
+Negative Regulation Of Cell Adhesion (GO:0007162)	Negative Regulation Of Cell Adhesion (GO:0007162)	1	1/72	0.013888888888888888	72	0.1741921424776707	0.2514049715901134	PLXNB2
+Ubiquitin-Dependent ERAD Pathway (GO:0030433)	Ubiquitin-Dependent ERAD Pathway (GO:0030433)	1	1/73	0.0136986301369863	73	0.1763884367943279	0.2527820203355332	UBE4A
+Regulation Of Rho Protein Signal Transduction (GO:0035023)	Regulation Of Rho Protein Signal Transduction (GO:0035023)	1	1/73	0.0136986301369863	73	0.1763884367943279	0.2527820203355332	AKAP13
+Regulation Of Cell Cycle G1/S Phase Transition (GO:1902806)	Regulation Of Cell Cycle G1/S Phase Transition (GO:1902806)	1	1/74	0.013513513513513514	74	0.1785789998452881	0.2550233436387096	ARID1A
+Positive Regulation Of Neurogenesis (GO:0050769)	Positive Regulation Of Neurogenesis (GO:0050769)	1	1/75	0.013333333333333334	75	0.1807638462785187	0.2563445485552513	PLXNB2
+Nucleosome Organization (GO:0034728)	Nucleosome Organization (GO:0034728)	1	1/75	0.013333333333333334	75	0.1807638462785187	0.2563445485552513	ARID1A
+Negative Regulation Of Blood Vessel Morphogenesis (GO:2000181)	Negative Regulation Of Blood Vessel Morphogenesis (GO:2000181)	1	1/77	0.012987012987012988	77	0.1851164478822136	0.2616055357224338	YJEFN3
+Regulation Of Intracellular Signal Transduction (GO:1902531)	Regulation Of Intracellular Signal Transduction (GO:1902531)	2	2/297	0.006734006734006734	297	0.1858694242687772	0.2617607462885548	AKAP13;EP300
+Cellular Response To UV (GO:0034644)	Cellular Response To UV (GO:0034644)	1	1/79	0.012658227848101266	79	0.189446358131585	0.2649644940190896	EP300
+Negative Regulation Of Cellular Component Organization (GO:0051129)	Negative Regulation Of Cellular Component Organization (GO:0051129)	1	1/79	0.012658227848101266	79	0.189446358131585	0.2649644940190896	EP300
+Regulation Of Cytokinesis (GO:0032465)	Regulation Of Cytokinesis (GO:0032465)	1	1/80	0.0125	80	0.1916028402963843	0.2661513856676737	KIF23
+Regulation Of Organelle Assembly (GO:1902115)	Regulation Of Organelle Assembly (GO:1902115)	1	1/80	0.0125	80	0.1916028402963843	0.2661513856676737	RABGAP1
+Activation Of Protein Kinase Activity (GO:0032147)	Activation Of Protein Kinase Activity (GO:0032147)	1	1/81	0.012345679012345678	81	0.1937536931270386	0.2673144172973042	OSBPL8
+Histone Modification (GO:0016570)	Histone Modification (GO:0016570)	1	1/81	0.012345679012345678	81	0.1937536931270386	0.2673144172973042	EP300
+Regulation Of Phosphorylation (GO:0042325)	Regulation Of Phosphorylation (GO:0042325)	1	1/82	0.012195121951219513	82	0.1958989309990987	0.2684540906283946	PLXNB2
+Sodium Ion Transmembrane Transport (GO:0035725)	Sodium Ion Transmembrane Transport (GO:0035725)	1	1/82	0.012195121951219513	82	0.1958989309990987	0.2684540906283946	SLC9A6
+Positive Regulation Of Proteasomal Ubiquitin-Dependent Protein Catabolic Process (GO:0032436)	Positive Regulation Of Proteasomal Ubiquitin-Dependent Protein Catabolic Process (GO:0032436)	1	1/83	0.012048192771084338	83	0.198038568286214	0.269570893954813	CDC20B
+Regulation Of NIK/NF-kappaB Signaling (GO:1901222)	Regulation Of NIK/NF-kappaB Signaling (GO:1901222)	1	1/83	0.012048192771084338	83	0.198038568286214	0.269570893954813	EP300
+Positive Regulation Of Double-Strand Break Repair (GO:2000781)	Positive Regulation Of Double-Strand Break Repair (GO:2000781)	1	1/84	0.011904761904761904	84	0.2001726193353897	0.2715675202316788	ARID1A
+Nuclear-Transcribed mRNA Catabolic Process (GO:0000956)	Nuclear-Transcribed mRNA Catabolic Process (GO:0000956)	1	1/85	0.011764705882352941	85	0.2023010984664659	0.2717377791282232	PATL2
+Mitotic Spindle Organization (GO:0007052)	Mitotic Spindle Organization (GO:0007052)	1	1/85	0.011764705882352941	85	0.2023010984664659	0.2717377791282232	KIF23
+Positive Regulation Of Amide Metabolic Process (GO:0034250)	Positive Regulation Of Amide Metabolic Process (GO:0034250)	1	1/85	0.011764705882352941	85	0.2023010984664659	0.2717377791282232	PLXNB2
+Regulation Of Mitotic Cell Cycle Phase Transition (GO:1901990)	Regulation Of Mitotic Cell Cycle Phase Transition (GO:1901990)	1	1/86	0.011627906976744186	86	0.2044240199319846	0.2727887741387467	ARID1A
+Negative Regulation Of Angiogenesis (GO:0016525)	Negative Regulation Of Angiogenesis (GO:0016525)	1	1/86	0.011627906976744186	86	0.2044240199319846	0.2727887741387467	YJEFN3
+ERAD Pathway (GO:0036503)	ERAD Pathway (GO:0036503)	1	1/89	0.011235955056179775	89	0.2107595805777352	0.2785037314777215	UBE4A
+Positive Regulation Of DNA Repair (GO:0045739)	Positive Regulation Of DNA Repair (GO:0045739)	1	1/89	0.011235955056179775	89	0.2107595805777352	0.2785037314777215	ARID1A
+Sensory Perception Of Mechanical Stimulus (GO:0050954)	Sensory Perception Of Mechanical Stimulus (GO:0050954)	1	1/89	0.011235955056179775	89	0.2107595805777352	0.2785037314777215	TPRN
+rRNA Metabolic Process (GO:0016072)	rRNA Metabolic Process (GO:0016072)	1	1/91	0.01098901098901099	91	0.2149557593339884	0.2831294305790721	NOLC1
+Sensory Perception Of Sound (GO:0007605)	Sensory Perception Of Sound (GO:0007605)	1	1/92	0.010869565217391304	92	0.2170456325124618	0.2849599110728129	TPRN
+Positive Regulation Of Protein Kinase B Signaling (GO:0051897)	Positive Regulation Of Protein Kinase B Signaling (GO:0051897)	1	1/93	0.010752688172043012	93	0.2191300468797104	0.2858523367950069	OSBPL8
+Positive Regulation Of Cellular Component Biogenesis (GO:0044089)	Positive Regulation Of Cellular Component Biogenesis (GO:0044089)	1	1/93	0.010752688172043012	93	0.2191300468797104	0.2858523367950069	TPR
+Regulation Of mRNA Splicing, Via Spliceosome (GO:0048024)	Regulation Of mRNA Splicing, Via Spliceosome (GO:0048024)	1	1/94	0.010638297872340425	94	0.2212090164950614	0.2867263366671656	YTHDC1
+Peptidyl-Lysine Modification (GO:0018205)	Peptidyl-Lysine Modification (GO:0018205)	1	1/94	0.010638297872340425	94	0.2212090164950614	0.2867263366671656	EP300
+Positive Regulation Of Transmembrane Receptor Protein Serine/Threonine Kinase Signaling Pathway (GO:0090100)	Positive Regulation Of Transmembrane Receptor Protein Serine/Threonine Kinase Signaling Pathway (GO:0090100)	1	1/95	0.010526315789473684	95	0.2232825552481022	0.2879828092412965	EP300
+Negative Regulation Of Gene Expression (GO:0010629)	Negative Regulation Of Gene Expression (GO:0010629)	2	2/336	0.005952380952380952	336	0.2235935324821859	0.2879828092412965	ZAR1L;PATL2
+Regulation Of Protein Localization (GO:0032880)	Regulation Of Protein Localization (GO:0032880)	1	1/97	0.010309278350515464	97	0.2274133958593331	0.2919787132957368	TPR
+RNA Splicing (GO:0008380)	RNA Splicing (GO:0008380)	1	1/98	0.01020408163265306	98	0.2294707254570178	0.2936936643427869	PPIG
+Regulation Of Organelle Organization (GO:0033043)	Regulation Of Organelle Organization (GO:0033043)	1	1/100	0.01	100	0.233569272224541	0.2961454635370349	EP300
+Response To UV (GO:0009411)	Response To UV (GO:0009411)	1	1/100	0.01	100	0.233569272224541	0.2961454635370349	EP300
+ncRNA Processing (GO:0034470)	ncRNA Processing (GO:0034470)	1	1/100	0.01	100	0.233569272224541	0.2961454635370349	NOLC1
+Hemopoiesis (GO:0030097)	Hemopoiesis (GO:0030097)	1	1/101	0.009900990099009901	101	0.2356105169439152	0.2978058397396692	YJEFN3
+Regulation Of RNA Splicing (GO:0043484)	Regulation Of RNA Splicing (GO:0043484)	1	1/102	0.00980392156862745	102	0.2376464274738032	0.2994492135660616	YTHDC1
+Inorganic Cation Import Across Plasma Membrane (GO:0098659)	Inorganic Cation Import Across Plasma Membrane (GO:0098659)	1	1/103	0.009708737864077669	103	0.2396770174824492	0.3010757596152989	SLC9A6
+Regulation Of G1/S Transition Of Mitotic Cell Cycle (GO:2000045)	Regulation Of G1/S Transition Of Mitotic Cell Cycle (GO:2000045)	1	1/106	0.009433962264150943	106	0.2457370008212327	0.3077383364130514	ARID1A
+Monoatomic Ion Transport (GO:0006811)	Monoatomic Ion Transport (GO:0006811)	1	1/107	0.009345794392523364	107	0.2477464448865542	0.3083571959291363	SLC9A6
+Positive Regulation Of T Cell Activation (GO:0050870)	Positive Regulation Of T Cell Activation (GO:0050870)	1	1/107	0.009345794392523364	107	0.2477464448865542	0.3083571959291363	ARID1A
+Positive Regulation Of Translation (GO:0045727)	Positive Regulation Of Translation (GO:0045727)	1	1/108	0.009259259259259259	108	0.2497506362945998	0.3089620333492466	PLXNB2
+Lipid Transport (GO:0006869)	Lipid Transport (GO:0006869)	1	1/108	0.009259259259259259	108	0.2497506362945998	0.3089620333492466	OSBPL8
+Regulation Of Transforming Growth Factor Beta Receptor Signaling Pathway (GO:0017015)	Regulation Of Transforming Growth Factor Beta Receptor Signaling Pathway (GO:0017015)	1	1/111	0.009009009009009009	111	0.2557318291185366	0.3135025736483264	EP300
+Mitotic Sister Chromatid Segregation (GO:0000070)	Mitotic Sister Chromatid Segregation (GO:0000070)	1	1/111	0.009009009009009009	111	0.2557318291185366	0.3135025736483264	KIF23
+Cytoskeleton Organization (GO:0007010)	Cytoskeleton Organization (GO:0007010)	1	1/111	0.009009009009009009	111	0.2557318291185366	0.3135025736483264	CECR2
+Regulation Of Small GTPase Mediated Signal Transduction (GO:0051056)	Regulation Of Small GTPase Mediated Signal Transduction (GO:0051056)	1	1/118	0.00847457627118644	118	0.2695066005663393	0.329396956247748	AKAP13
+DNA Damage Response (GO:0006974)	DNA Damage Response (GO:0006974)	2	2/384	0.005208333333333333	384	0.2707655354698007	0.3297962237469952	TRIP12;WDR76
+Regulation Of Protein-Containing Complex Assembly (GO:0043254)	Regulation Of Protein-Containing Complex Assembly (GO:0043254)	1	1/119	0.008403361344537815	119	0.2714538942389273	0.3297962237469952	EP300
+Positive Regulation Of Macromolecule Biosynthetic Process (GO:0010557)	Positive Regulation Of Macromolecule Biosynthetic Process (GO:0010557)	1	1/122	0.00819672131147541	122	0.277265267791134	0.3338667573697974	PLXNB2
+Potassium Ion Transport (GO:0006813)	Potassium Ion Transport (GO:0006813)	1	1/122	0.00819672131147541	122	0.277265267791134	0.3338667573697974	SLC9A6
+Regulation Of Protein Catabolic Process (GO:0042176)	Regulation Of Protein Catabolic Process (GO:0042176)	1	1/122	0.00819672131147541	122	0.277265267791134	0.3338667573697974	TMF1
+Modulation Of Chemical Synaptic Transmission (GO:0050804)	Modulation Of Chemical Synaptic Transmission (GO:0050804)	1	1/123	0.008130081300813009	123	0.2791922666167747	0.3342095662147862	DLGAP4
+Regulation Of Cell Motility (GO:2000145)	Regulation Of Cell Motility (GO:2000145)	1	1/123	0.008130081300813009	123	0.2791922666167747	0.3342095662147862	PLXNB2
+Protein-Containing Complex Organization (GO:0043933)	Protein-Containing Complex Organization (GO:0043933)	1	1/126	0.007936507936507936	126	0.2849430676424651	0.3390989138318225	TPR
+Cellular Response To Starvation (GO:0009267)	Cellular Response To Starvation (GO:0009267)	1	1/126	0.007936507936507936	126	0.2849430676424651	0.3390989138318225	GCN1
+Regulation Of Cell Cycle Process (GO:0010564)	Regulation Of Cell Cycle Process (GO:0010564)	1	1/130	0.007692307692307693	130	0.2925408269831629	0.3471257043211292	ARID1A
+Circulatory System Development (GO:0072359)	Circulatory System Development (GO:0072359)	1	1/132	0.007575757575757576	132	0.2963099475595603	0.3505760135370379	AKAP13
+Non-Membrane-Bounded Organelle Assembly (GO:0140694)	Non-Membrane-Bounded Organelle Assembly (GO:0140694)	1	1/135	0.007407407407407408	135	0.3019267153971721	0.3561860091786928	PATL2
+Regulation Of Protein Kinase B Signaling (GO:0051896)	Regulation Of Protein Kinase B Signaling (GO:0051896)	1	1/136	0.007352941176470588	136	0.3037891783385338	0.3573473860802984	OSBPL8
+Potassium Ion Transmembrane Transport (GO:0071805)	Potassium Ion Transmembrane Transport (GO:0071805)	1	1/137	0.0072992700729927005	137	0.3056467657251325	0.3584963505767404	SLC9A6
+Actin Filament Organization (GO:0007015)	Actin Filament Organization (GO:0007015)	1	1/144	0.006944444444444444	144	0.3185144093871205	0.3714480361620574	SHROOM2
+Regulation Of Cell Adhesion (GO:0030155)	Regulation Of Cell Adhesion (GO:0030155)	1	1/144	0.006944444444444444	144	0.3185144093871205	0.3714480361620574	PLXNB2
+Protein Ubiquitination (GO:0016567)	Protein Ubiquitination (GO:0016567)	2	2/434	0.004608294930875576	434	0.3199192306623111	0.3720203625130304	UBE4A;TRIP12
+Neuron Projection Morphogenesis (GO:0048812)	Neuron Projection Morphogenesis (GO:0048812)	1	1/146	0.00684931506849315	146	0.3221477072576515	0.3735444924611514	SLC9A6
+Axon Guidance (GO:0007411)	Axon Guidance (GO:0007411)	1	1/149	0.006711409395973154	149	0.327562046155542	0.3776706877770697	PLXNB2
+Skeletal System Development (GO:0001501)	Skeletal System Development (GO:0001501)	1	1/149	0.006711409395973154	149	0.327562046155542	0.3776706877770697	AKAP13
+protein-RNA Complex Assembly (GO:0022618)	protein-RNA Complex Assembly (GO:0022618)	1	1/150	0.006666666666666667	150	0.3293573790933297	0.3786679471496756	YTHDC1
+Positive Regulation Of NF-kappaB Transcription Factor Activity (GO:0051092)	Positive Regulation Of NF-kappaB Transcription Factor Activity (GO:0051092)	1	1/152	0.006578947368421052	152	0.3329339475439765	0.3817017370433759	EP300
+Ribosome Biogenesis (GO:0042254)	Ribosome Biogenesis (GO:0042254)	1	1/155	0.0064516129032258064	155	0.3382637377900799	0.3867228687656251	NOLC1
+Peptide Biosynthetic Process (GO:0043043)	Peptide Biosynthetic Process (GO:0043043)	1	1/158	0.006329113924050633	158	0.3435517406268233	0.3916682309106921	ZAR1L
+Protein Autophosphorylation (GO:0046777)	Protein Autophosphorylation (GO:0046777)	1	1/162	0.006172839506172839	162	0.3505379636116766	0.3985166234356213	CAD
+Heart Development (GO:0007507)	Heart Development (GO:0007507)	1	1/171	0.005847953216374269	171	0.3659913340474585	0.4145378913886553	AKAP13
+Generation Of Neurons (GO:0048699)	Generation Of Neurons (GO:0048699)	1	1/172	0.005813953488372093	172	0.3676859429761783	0.4145378913886553	PLXNB2
+Cell-Cell Adhesion Via Plasma-Membrane Adhesion Molecules (GO:0098742)	Cell-Cell Adhesion Via Plasma-Membrane Adhesion Molecules (GO:0098742)	1	1/172	0.005813953488372093	172	0.3676859429761783	0.4145378913886553	PLXNB2
+Positive Regulation Of Cellular Biosynthetic Process (GO:0031328)	Positive Regulation Of Cellular Biosynthetic Process (GO:0031328)	1	1/174	0.005747126436781609	174	0.3710618397239662	0.417188311512857	PLXNB2
+Positive Regulation Of I-kappaB kinase/NF-kappaB Signaling (GO:0043123)	Positive Regulation Of I-kappaB kinase/NF-kappaB Signaling (GO:0043123)	1	1/175	0.005714285714285714	175	0.372743150352701	0.4179241382742405	AKAP13
+RNA Splicing, Via Transesterification Reactions With Bulged Adenosine As Nucleophile (GO:0000377)	RNA Splicing, Via Transesterification Reactions With Bulged Adenosine As Nucleophile (GO:0000377)	1	1/180	0.005555555555555556	180	0.381083779921797	0.4261019187587126	YTHDC1
+RNA Processing (GO:0006396)	RNA Processing (GO:0006396)	1	1/183	0.00546448087431694	183	0.3860358247792144	0.4292802750960116	PPIG
+Macromolecule Biosynthetic Process (GO:0009059)	Macromolecule Biosynthetic Process (GO:0009059)	1	1/183	0.00546448087431694	183	0.3860358247792144	0.4292802750960116	ZAR1L
+Axonogenesis (GO:0007409)	Axonogenesis (GO:0007409)	1	1/188	0.005319148936170213	188	0.3942029797950209	0.4371678822249959	SLC9A6
+Neuron Projection Development (GO:0031175)	Neuron Projection Development (GO:0031175)	1	1/192	0.005208333333333333	192	0.4006598720725818	0.4424898669854228	SLC9A6
+Regulation Of Signal Transduction (GO:0009966)	Regulation Of Signal Transduction (GO:0009966)	1	1/193	0.0051813471502590676	193	0.4022635154412934	0.4424898669854228	YJEFN3
+Regulation Of Cell Differentiation (GO:0045595)	Regulation Of Cell Differentiation (GO:0045595)	1	1/193	0.0051813471502590676	193	0.4022635154412934	0.4424898669854228	ARID1A
+Positive Regulation Of Protein Metabolic Process (GO:0051247)	Positive Regulation Of Protein Metabolic Process (GO:0051247)	1	1/196	0.00510204081632653	196	0.4070492282998012	0.4465472666253883	PLXNB2
+Regulation Of Angiogenesis (GO:0045765)	Regulation Of Angiogenesis (GO:0045765)	1	1/205	0.004878048780487805	205	0.4211819289728438	0.4608092609998586	YJEFN3
+Protein Stabilization (GO:0050821)	Protein Stabilization (GO:0050821)	1	1/208	0.004807692307692308	208	0.4258189751362443	0.464633573406036	EP300
+mRNA Splicing, Via Spliceosome (GO:0000398)	mRNA Splicing, Via Spliceosome (GO:0000398)	1	1/211	0.004739336492890996	211	0.4304195681591009	0.4683977653496098	YTHDC1
+mRNA Processing (GO:0006397)	mRNA Processing (GO:0006397)	1	1/214	0.004672897196261682	214	0.4349839892206522	0.4721026229674811	YTHDC1
+Positive Regulation Of Nucleic Acid-Templated Transcription (GO:1903508)	Positive Regulation Of Nucleic Acid-Templated Transcription (GO:1903508)	2	2/557	0.003590664272890485	557	0.4365946058076902	0.4725904376694944	EP300;ARID1A
+Proteasomal Protein Catabolic Process (GO:0010498)	Proteasomal Protein Catabolic Process (GO:0010498)	1	1/220	0.004545454545454545	220	0.4440054288510459	0.4793374258418453	TRIP12
+Apoptotic Process (GO:0006915)	Apoptotic Process (GO:0006915)	1	1/228	0.0043859649122807015	228	0.4558144861733793	0.4907843806152523	EP300
+Regulation Of I-kappaB kinase/NF-kappaB Signaling (GO:0043122)	Regulation Of I-kappaB kinase/NF-kappaB Signaling (GO:0043122)	1	1/232	0.004310344827586207	232	0.4616263780468247	0.4957307014909173	AKAP13
+Positive Regulation Of Developmental Process (GO:0051094)	Positive Regulation Of Developmental Process (GO:0051094)	1	1/233	0.004291845493562232	233	0.4630698089428248	0.4959721374729729	ARID1A
+Translation (GO:0006412)	Translation (GO:0006412)	1	1/234	0.004273504273504274	234	0.4645094426543907	0.4962082497646641	ZAR1L
+Regulation Of Autophagy (GO:0010506)	Regulation Of Autophagy (GO:0010506)	1	1/241	0.004149377593360996	241	0.4744813779756692	0.5055338241782654	EP300
+Positive Regulation Of DNA-binding Transcription Factor Activity (GO:0051091)	Positive Regulation Of DNA-binding Transcription Factor Activity (GO:0051091)	1	1/246	0.0040650406504065045	246	0.4814924102290312	0.5116642583895972	EP300
+Cellular Component Assembly (GO:0022607)	Cellular Component Assembly (GO:0022607)	1	1/260	0.0038461538461538464	260	0.5006387107927464	0.5306248835746035	SHROOM2
+Regulation Of Protein Phosphorylation (GO:0001932)	Regulation Of Protein Phosphorylation (GO:0001932)	1	1/265	0.0037735849056603774	265	0.5073071511833434	0.536296131250963	PLXNB2
+Monoatomic Cation Transmembrane Transport (GO:0098655)	Monoatomic Cation Transmembrane Transport (GO:0098655)	1	1/281	0.0035587188612099642	281	0.528064401762944	0.5567932940868348	SLC9A6
+Positive Regulation Of Cell Differentiation (GO:0045597)	Positive Regulation Of Cell Differentiation (GO:0045597)	1	1/283	0.0035335689045936395	283	0.5305979523552254	0.5579043955578714	ARID1A
+Inorganic Cation Transmembrane Transport (GO:0098662)	Inorganic Cation Transmembrane Transport (GO:0098662)	1	1/284	0.0035211267605633804	284	0.5318597186153663	0.5579043955578714	SLC9A6
+DNA Repair (GO:0006281)	DNA Repair (GO:0006281)	1	1/291	0.003436426116838488	291	0.5405993831503263	0.5656142646328607	GCNA
+Cellular Response To Cytokine Stimulus (GO:0071345)	Cellular Response To Cytokine Stimulus (GO:0071345)	1	1/308	0.003246753246753247	308	0.5611632803414411	0.585624243843504	TPR
+Supramolecular Fiber Organization (GO:0097435)	Supramolecular Fiber Organization (GO:0097435)	1	1/316	0.0031645569620253164	316	0.5705252222072245	0.5938715228602055	SHROOM2
+Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122)	Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122)	2	2/763	0.002621231979030144	763	0.6055780656854911	0.6287506957499869	TPR;EP300
+Protein Localization (GO:0008104)	Protein Localization (GO:0008104)	1	1/351	0.002849002849002849	351	0.609231418004719	0.6309343183916556	SHROOM2
+Regulation Of Transcription By RNA Polymerase II (GO:0006357)	Regulation Of Transcription By RNA Polymerase II (GO:0006357)	5	5/2028	0.002465483234714004	2028	0.6347291290763544	0.6556719683605995	TMF1;TPR;EP300;SAFB;ARID1A
+Positive Regulation Of Multicellular Organismal Process (GO:0051240)	Positive Regulation Of Multicellular Organismal Process (GO:0051240)	1	1/387	0.002583979328165375	387	0.6454697546142397	0.6650789623493558	ARID1A
+Positive Regulation Of DNA-templated Transcription (GO:0045893)	Positive Regulation Of DNA-templated Transcription (GO:0045893)	3	3/1243	0.002413515687851971	1243	0.6480572491736294	0.6660588394284523	TMF1;EP300;ARID1A
+Vesicle-Mediated Transport (GO:0016192)	Vesicle-Mediated Transport (GO:0016192)	1	1/411	0.0024330900243309003	411	0.6677748107421089	0.684595334942162	CECR2
+Organelle Organization (GO:0006996)	Organelle Organization (GO:0006996)	1	1/418	0.0023923444976076554	418	0.6740169715102292	0.6892585613182495	CECR2
+Nervous System Development (GO:0007399)	Nervous System Development (GO:0007399)	1	1/433	0.0023094688221709007	433	0.687008077645276	0.699893334458766	EP300
+Regulation Of Cell Migration (GO:0030334)	Regulation Of Cell Migration (GO:0030334)	1	1/434	0.002304147465437788	434	0.6878558569619322	0.699893334458766	PLXNB2
+Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944)	Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944)	2	2/938	0.0021321961620469083	938	0.7175171618972782	0.7282530795316514	TMF1;EP300
+Protein Phosphorylation (GO:0006468)	Protein Phosphorylation (GO:0006468)	1	1/500	0.002	500	0.7390978494043314	0.7482906087252809	CAD
+Negative Regulation Of DNA-templated Transcription (GO:0045892)	Negative Regulation Of DNA-templated Transcription (GO:0045892)	2	2/1025	0.001951219512195122	1025	0.7627349381358774	0.7697873583293176	TPR;EP300
+Negative Regulation Of Cellular Process (GO:0048523)	Negative Regulation Of Cellular Process (GO:0048523)	1	1/537	0.00186219739292365	537	0.7641132500369638	0.7697873583293176	PLXNB2
+Positive Regulation Of Cellular Process (GO:0048522)	Positive Regulation Of Cellular Process (GO:0048522)	1	1/594	0.0016835016835016834	594	0.798114795141846	0.8020561027721761	ARID1A
+Regulation Of Gene Expression (GO:0010468)	Regulation Of Gene Expression (GO:0010468)	2	2/1127	0.001774622892635315	1127	0.8078201490960764	0.8098098538968056	YTHDC1;EZHIP
+Regulation Of DNA-templated Transcription (GO:0006355)	Regulation Of DNA-templated Transcription (GO:0006355)	3	3/1922	0.0015608740894901144	1922	0.8953685191940159	0.8953685191940159	EP300;SAFB;ARID1A

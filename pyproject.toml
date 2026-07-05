@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MStoCIRC2"
+dynamic = ["version"]
+description = "Proteogenomics software for identifying and validating protein-coding circular RNAs from MS data."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10,<3.13"
+authors = [
+    {name = "MStoCIRC2 Authors"}
+]
+keywords = ["circRNA", "proteogenomics", "mass-spectrometry", "MS", "bioinformatics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "adjustText>=1.1.1,<2",
+    "biopython>=1.84,<2",
+    "directlfq>=0.3.3,<1",
+    "gseapy>=1.2.1,<2",
+    "matplotlib>=3.6.3,<4",
+    "numpy>=1.23.2,<3",
+    "pandas>=2.2.3,<3",
+    "Pillow>=10.2.0,<12",
+    "scipy>=1.11.4,<2",
+    "torch>=2.3.1,<3",
+]
+
+[project.scripts]
+mstocirc2 = "mstocirc2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"mstocirc2" = [
+    "differential_expression/kegg_organisms.json",
+    "spectral_searching/workflows/MStoCIRC2_DIA.workflow",
+    "spectral_searching/workflows/MStoCIRC2_non_quant.workflow",
+    "spectral_searching/workflows/MStoCIRC2_quant.workflow",
+    "translation_validation/Deepcircm6a/checkpoint.pth.tar",
+    "translation_validation/Deepcircm6a/model_one_hot_NCP_EIIP.py",
+    "translation_validation/Deepcircm6a/predict.py",
+    "translation_validation/Deepcircm6a/seq_load_one_hot_NCP_EIIP.py",
+]
+
+[tool.setuptools_scm]

@@ -1,0 +1,23 @@
+name: mstocirc2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.10,<3.13
+  - pip
+  - openjdk>=17,<22
+  - bedtools
+  - diamond
+  - seqkit
+  - jq
+  - perl>=5.32,<5.40
+  - r-base>=4.3,<4.5
+  - r-biocmanager>=1.30,<2
+  - bioconductor-limma
+  - bioconductor-deqms
+  - bioconductor-proda
+  - bioconductor-pcamethods
+  - pip:
+      - -r requirements.txt
+      - -e .
