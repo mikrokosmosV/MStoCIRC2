@@ -6,8 +6,8 @@
 
 - `mstocirc2 orf`: predict circRNA ORFs and export circRNA-aware FASTA and mapping files
 - `mstocirc2 search`: assemble a circRNA-aware search database and launch FragPipe workflows
-- `mstocirc2 eval`: evaluate translation evidence and generate `circ_predict.txt` plus visualization outputs
-- `mstocirc2 dea`: perform circRNA-aware quantitative filtering, roll-up, DEA, correlation analysis, and enrichment
+- `mstocirc2 eval`: evaluate and rank circRNA translation potential using IRES, m6A, and peptide-support evidence
+- `mstocirc2 dea`: perform quantitative filtering, protein roll-up, differential expression analysis (DEA), correlation analysis, and enrichment for circRNA-derived candidates
 - `mstocirc2 nonquant`: run `orf -> search -> eval` in one command
 - `mstocirc2 quant`: run `orf -> search -> eval -> dea` in one command
 
@@ -43,6 +43,7 @@ Use the pip route only if you already manage your own Python environment. It ins
 ## Runtime Requirements
 
 - Core runtime dependencies are centralized in `conda_env.yaml`, `requirements.txt`, and the bundled DEA helper installers. Representative components include `diamond` for sequence/background filtering, `torch` for bundled `DeepCircM6A` inference, and the R package stack used by `mstocirc2 dea` for differential analysis and downstream enrichment.
+- External tools such as FragPipe, DIA workflow Python packages, and DeepCIP must be installed and managed by the user. They do not need to live in the same environment as `mstocirc2`, because the CLI can call site-specific executables, tool directories, and Python interpreters through command-line parameters.
 
 ### FragPipe runtime
 
@@ -65,12 +66,14 @@ For DIA workflows, the FragPipe Python selected by `-py/--python-bin` or the cur
 - `easypqp`
 - `lxml`
 
+These packages must be installed by the user in the Python environment that FragPipe will actually use. That interpreter can be different from the one used to run `mstocirc2`.
+
 ### Translation-potential scoring
 
-- `DeepCIP` for IRES-related scoring .
+- `DeepCIP` for IRES-related scoring
 - bundled `DeepCircM6A` inference assets, which require `torch` in the Python environment running `mstocirc2 eval`
 
-If `DeepCIP` is unavailable, the main workflow still runs, but translation-potential scoring in `circ_predict.txt` is less complete.
+`DeepCIP` is an external dependency and must be installed by the user. If it is unavailable, the main workflow still runs, but translation-potential scoring in `circ_predict.txt` is less complete.
 
 `MStoCIRC2` does not require DeepCIP to share the same Python environment as the main CLI. If your DeepCIP installation only works with a separate Python, pass that interpreter through `--deepcip-python`.
 
@@ -84,7 +87,7 @@ For the full upstream installation guide, use the official DeepCIP repository di
 
 ## Quick Start
 
-### End-to-end non-quantitative workflow
+### End-to-end workflow
 
 ```bash
 mstocirc2 nonquant \
