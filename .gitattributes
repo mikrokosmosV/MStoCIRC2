@@ -1,25 +1,7 @@
-* text=auto eol=lf
+* text eol=lf
 
-*.py text eol=lf
-*.md text eol=lf
-*.txt text eol=lf
-*.tsv text eol=lf
-*.json text eol=lf
-*.yaml text eol=lf
-*.yml text eol=lf
-*.fasta text eol=lf
-*.workflow text eol=lf
-*.ps1 text eol=lf
-*.sh text eol=lf
-*.R text eol=lf
-
-*.png -text
-*.pdf -text
-*.jpg -text
-*.jpeg -text
-*.gif -text
-*.pkl -text
-*.dmnd -text
-*.pth -text
-*.tar -text
-*.pth.tar -text
+*.png binary
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.dmnd binary
