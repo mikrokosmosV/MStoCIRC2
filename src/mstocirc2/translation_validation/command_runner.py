@@ -8,7 +8,7 @@ from pathlib import Path
 import sys
 
 from ..cli_ui import CLIHelpFormatter, branded_description, help_block, join_blocks
-from ..core import CLIUsageError, DependencyError, require_command
+from ..core import CLIUsageError, DependencyError, make_default_module_output_dir, require_command
 from .paper_pipeline import resolve_predictor_path, run_translation_validation
 
 log = logging.getLogger("translation_validation")
@@ -16,10 +16,12 @@ _DEEPCIP_ENV = "MSTOCIRC2_DEEPCIP_PATH"
 _DEEPCIP_PYTHON_ENV = "MSTOCIRC2_DEEPCIP_PYTHON"
 
 
-def _resolve_output_dir(value: str) -> Path:
-    output_dir = Path(value or ".").expanduser()
-    output_dir.mkdir(parents=True, exist_ok=True)
-    return output_dir
+def _resolve_output_dir(value: str | None) -> Path:
+    if value and value.strip():
+        output_dir = Path(value).expanduser()
+        output_dir.mkdir(parents=True, exist_ok=True)
+        return output_dir
+    return make_default_module_output_dir("eval")
 
 
 def _validate_eval_inputs(args: argparse.Namespace) -> tuple[str, str, str | None, str | None]:
@@ -93,8 +95,12 @@ def add_eval_subparser(subparsers: argparse._SubParsersAction) -> argparse.Argum
         "--output-dir",
         dest="file_out",
         metavar="<DIR>",
-        default=".",
-        help="Directory for evaluation outputs and summary reports. Default: current working directory.",
+        default=None,
+        help=(
+            "Directory for evaluation outputs and summary reports. If omitted, "
+            "MStoCIRC2 creates 'MStoCIRC2_eval_YY-MM-DD.N' under the current "
+            "working directory."
+        ),
     )
 
     req = eval_parser.add_argument_group("Core inputs")
@@ -133,6 +139,14 @@ def add_eval_subparser(subparsers: argparse._SubParsersAction) -> argparse.Argum
         "-ms", "--ms-input", dest="path_ms_input", metavar="<PATH>", required=True,
         help="Mass-spectrometry result directory or peptide summary table. FragPipe-style tables must use circRNA ORF IDs matching the supplied ORF and mapping files.",
     )
+    req.add_argument(
+        "-cp",
+        "--canonical-protein",
+        dest="canonical_protein",
+        metavar="<FILE>",
+        required=True,
+        help="Path to the canonical linear proteome FASTA used for background filtering.",
+    )
 
     opt = eval_parser.add_argument_group("Optional settings")
     opt.add_argument(
@@ -141,14 +155,6 @@ def add_eval_subparser(subparsers: argparse._SubParsersAction) -> argparse.Argum
         dest="circ_mapping",
         metavar="<FILE>",
         help="Path to the circRNA ORF mapping table.",
-    )
-    opt.add_argument(
-        "-cp",
-        "--canonical-protein",
-        dest="canonical_protein",
-        metavar="<FILE>",
-        required=True,
-        help="Path to the canonical linear proteome FASTA used for background filtering.",
     )
     opt.add_argument(
         "--deepcip-path",
@@ -174,6 +180,7 @@ def add_eval_subparser(subparsers: argparse._SubParsersAction) -> argparse.Argum
 def run_eval(args: argparse.Namespace) -> int:
     circ_seq, circ_orf, circ_mapping, _circ_info = _validate_eval_inputs(args)
     out_dir = _resolve_output_dir(args.file_out)
+    args.file_out = str(out_dir)
     script_dir = Path(__file__).resolve().parent
     deepcip_path = resolve_predictor_path(
         _configured_predictor_path(args.deepcip_path, _DEEPCIP_ENV),

@@ -44,3 +44,20 @@ def make_timestamped_output_dir(prefix: str, parent: str | Path | None = None) -
         suffix += 1
     candidate.mkdir(parents=True, exist_ok=False)
     return candidate
+
+
+def make_default_module_output_dir(
+    module_name: str,
+    parent: str | Path | None = None,
+) -> Path:
+    """Create the default per-run output directory for a CLI module."""
+    root = Path(parent).expanduser() if parent else Path.cwd()
+    stamp = datetime.now().strftime("%y-%m-%d")
+    counter = 1
+    while True:
+        candidate = root / f"MStoCIRC2_{module_name}_{stamp}.{counter}"
+        try:
+            candidate.mkdir(parents=True, exist_ok=False)
+            return candidate
+        except FileExistsError:
+            counter += 1

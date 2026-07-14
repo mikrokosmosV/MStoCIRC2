@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Iterable, Sequence
 
 from .cli_ui import CLIHelpFormatter, branded_description, help_block, join_blocks
-from .core import CLIUsageError, MStoCIRC2Error, ensure_directory
+from .core import CLIUsageError, MStoCIRC2Error, ensure_directory, make_default_module_output_dir
 from .differential_expression.command_runner import run_differential_analysis
 from .differential_expression.workflow_strategy import STRATEGY_REGISTRY
 from .fragpipe_workflows import default_workflow_for_command
@@ -526,7 +526,11 @@ def _run_dea_stage(
 
 
 def run_non_quant_pipeline(args: argparse.Namespace) -> int:
-    root_out = ensure_directory(args.output_dir)
+    if args.output_dir and str(args.output_dir).strip():
+        root_out = ensure_directory(args.output_dir)
+    else:
+        root_out = make_default_module_output_dir("nonquant")
+    args.output_dir = str(root_out)
     workflow = resolve_workflow_path(args.workflow, args.manifest, "nonquant")
     _preflight_integrated_search_runtime(args)
     log.info("Mode     | nonquant")
@@ -558,7 +562,11 @@ def run_non_quant_pipeline(args: argparse.Namespace) -> int:
 
 def run_quant_pipeline(args: argparse.Namespace) -> int:
     conditions = _manifest_conditions(args.manifest)
-    root_out = ensure_directory(args.output_dir)
+    if args.output_dir and str(args.output_dir).strip():
+        root_out = ensure_directory(args.output_dir)
+    else:
+        root_out = make_default_module_output_dir("quant")
+    args.output_dir = str(root_out)
     workflow = resolve_workflow_path(args.workflow, args.manifest, "quant")
     _preflight_integrated_search_runtime(args)
     log.info("Mode     | quant")
@@ -720,7 +728,18 @@ def add_integrated_subparsers(subparsers: argparse._SubParsersAction) -> None:
         epilog=nonquant_epilog,
     )
     non_quant.set_defaults(runner=run_non_quant_pipeline)
-    non_quant.add_argument("-o", "--output-dir", metavar="<DIR>", default=".", help="Root output directory for the integrated workflow. Default: current working directory.")
+    non_quant.add_argument(
+        "-o",
+        "--output-dir",
+        metavar="<DIR>",
+        default=None,
+        help=(
+            "Root output directory for the integrated workflow. If omitted, "
+            "MStoCIRC2 creates 'MStoCIRC2_nonquant_YY-MM-DD.N' under the "
+            "current working directory, then writes stage outputs under "
+            "'orf', 'search', and 'eval' subdirectories."
+        ),
+    )
     non_quant.add_argument("-oo", "--orf-output-dir", metavar="<DIR>", default=None, help=argparse.SUPPRESS)
     non_quant.add_argument("-so", "--search-output-dir", metavar="<DIR>", default=None, help=argparse.SUPPRESS)
     non_quant.add_argument("-eo", "--eval-output-dir", metavar="<DIR>", default=None, help=argparse.SUPPRESS)
@@ -747,7 +766,18 @@ def add_integrated_subparsers(subparsers: argparse._SubParsersAction) -> None:
         epilog=quant_epilog,
     )
     quant.set_defaults(runner=run_quant_pipeline)
-    quant.add_argument("-o", "--output-dir", metavar="<DIR>", default=".", help="Root output directory for the integrated workflow. Default: current working directory.")
+    quant.add_argument(
+        "-o",
+        "--output-dir",
+        metavar="<DIR>",
+        default=None,
+        help=(
+            "Root output directory for the integrated workflow. If omitted, "
+            "MStoCIRC2 creates 'MStoCIRC2_quant_YY-MM-DD.N' under the current "
+            "working directory, then writes stage outputs under 'orf', "
+            "'search', 'eval', and 'dea' subdirectories."
+        ),
+    )
     quant.add_argument("-oo", "--orf-output-dir", metavar="<DIR>", default=None, help=argparse.SUPPRESS)
     quant.add_argument("-so", "--search-output-dir", metavar="<DIR>", default=None, help=argparse.SUPPRESS)
     quant.add_argument("-eo", "--eval-output-dir", metavar="<DIR>", default=None, help=argparse.SUPPRESS)

@@ -7,7 +7,7 @@ import re
 from typing import Any
 
 from ..cli_ui import CLIHelpFormatter, branded_description, help_block, join_blocks
-from ..core import CLIUsageError, require_command
+from ..core import CLIUsageError, make_default_module_output_dir, require_command
 from .bsj_truncator import filter_within_circ, postprocess_orf_records
 from .circular_translator import translate_circ_orfs
 from .genome_extractor import extract_sequences
@@ -57,8 +57,11 @@ def add_orf_subparser(subparsers: argparse._SubParsersAction) -> argparse.Argume
         "--output-dir",
         dest="out_circ_file",
         metavar="<DIR>",
-        default=".",
-        help="Directory for ORF-stage outputs. Default: current working directory.",
+        default=None,
+        help=(
+            "Directory for ORF-stage outputs. If omitted, MStoCIRC2 creates "
+            "'MStoCIRC2_orf_YY-MM-DD.N' under the current working directory."
+        ),
     )
 
     req = parser.add_argument_group("Core inputs")
@@ -164,10 +167,12 @@ def add_orf_subparser(subparsers: argparse._SubParsersAction) -> argparse.Argume
     return parser
 
 
-def _resolve_output_dir(value: str) -> Path:
-    output_dir = Path(value or ".").expanduser()
-    output_dir.mkdir(parents=True, exist_ok=True)
-    return output_dir
+def _resolve_output_dir(value: str | None) -> Path:
+    if value and value.strip():
+        output_dir = Path(value).expanduser()
+        output_dir.mkdir(parents=True, exist_ok=True)
+        return output_dir
+    return make_default_module_output_dir("orf")
 
 
 def _validate_orf_inputs(args: argparse.Namespace) -> bool:
@@ -218,6 +223,7 @@ def run_orf_prediction(args: Any) -> int:
         require_command("bedtools")
     start_codon_list = _parse_start_codon_list(args.start_codon)
     output_dir = _resolve_output_dir(args.out_circ_file)
+    args.out_circ_file = str(output_dir)
     output_prefix = f"{output_dir.as_posix()}/"
     protein_ref_list = (
         args.canonical_protein

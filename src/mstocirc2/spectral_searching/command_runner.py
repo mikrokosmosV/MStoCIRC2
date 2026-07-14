@@ -13,7 +13,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from ..cli_ui import CLIHelpFormatter, branded_description, help_block, join_blocks
-from ..core import CLIUsageError, require_command
+from ..core import CLIUsageError, make_default_module_output_dir, require_command
 from ..fragpipe_workflows import default_workflow_for_command
 from .fasta_assembler import assemble_database
 from .engine_executor import run_fragpipe
@@ -328,7 +328,18 @@ def add_search_subparser(subparsers: argparse._SubParsersAction) -> argparse.Arg
         required=True,
         help="Local FragPipe executable for native '--headless' execution.",
     )
-    p.add_argument("-o", "--output-dir", dest="outdir", metavar="<DIR>", default=".", help="Directory for search-stage outputs, generated workflow files, and FragPipe logs. Default: current working directory.")
+    p.add_argument(
+        "-o",
+        "--output-dir",
+        dest="outdir",
+        metavar="<DIR>",
+        default=None,
+        help=(
+            "Directory for search-stage outputs, generated workflow files, and FragPipe logs. "
+            "If omitted, MStoCIRC2 creates 'MStoCIRC2_search_YY-MM-DD.N' under the "
+            "current working directory."
+        ),
+    )
     p.add_argument(
         "-td",
         "--tools-dir",
@@ -356,8 +367,12 @@ def add_search_subparser(subparsers: argparse._SubParsersAction) -> argparse.Arg
 
 
 def run_search(args: argparse.Namespace) -> int:
-    out_dir = Path(args.outdir or ".").expanduser()
-    out_dir.mkdir(parents=True, exist_ok=True)
+    if args.outdir and str(args.outdir).strip():
+        out_dir = Path(args.outdir).expanduser()
+        out_dir.mkdir(parents=True, exist_ok=True)
+    else:
+        out_dir = make_default_module_output_dir("search")
+    args.outdir = str(out_dir)
     runtime = resolve_search_runtime(
         manifest=args.manifest,
         tools_folder=args.tools_folder,

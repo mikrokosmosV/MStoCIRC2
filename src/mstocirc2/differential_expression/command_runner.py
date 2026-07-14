@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from ..cli_ui import CLIHelpFormatter, branded_description, help_block, join_blocks
-from ..core import CLIUsageError, DependencyError, ensure_directory
+from ..core import CLIUsageError, DependencyError, ensure_directory, make_default_module_output_dir
 from .r_runtime_bridge import RSCRIPT
 from .workflow_strategy import resolve_strategy, STRATEGY_REGISTRY
 from .expression_io import (
@@ -80,7 +80,17 @@ def add_dea_subparser(subparsers: argparse._SubParsersAction) -> argparse.Argume
     p.add_argument("-pm", "--peptide-matrix", metavar="<FILE>", required=True, help="Path to the peptide quantification matrix.")
     p.add_argument("-cr", "--circrna-reference", metavar="<FILE>", required=True, help="Path to the circRNA reference table, for example 'circ_predict.txt'.")
     p.add_argument("-de", "--design", metavar="<FILE>", required=True, help="Path to the sample design or metadata table (.txt or .tsv).")
-    p.add_argument("-o", "--output-dir", metavar="<DIR>", default=".", help="Directory for DEA outputs, plots, and metadata. Default: current working directory.")
+    p.add_argument(
+        "-o",
+        "--output-dir",
+        metavar="<DIR>",
+        default=None,
+        help=(
+            "Directory for DEA outputs, plots, and metadata. If omitted, "
+            "MStoCIRC2 creates 'MStoCIRC2_dea_YY-MM-DD.N' under the current "
+            "working directory."
+        ),
+    )
     p.add_argument(
         "-st", "--strategy",
         metavar="<NAME>",
@@ -129,8 +139,12 @@ def run_differential_analysis(args: argparse.Namespace) -> int:
             "`R_HOME` before running DEA."
         )
 
-    out = Path(args.output_dir or ".").expanduser()
-    _prepare_outdir(out)
+    if args.output_dir and str(args.output_dir).strip():
+        out = Path(args.output_dir).expanduser()
+        _prepare_outdir(out)
+    else:
+        out = make_default_module_output_dir("dea")
+    args.output_dir = str(out)
     start_ts = time.time()
 
     strategy = resolve_strategy(args.strategy)
