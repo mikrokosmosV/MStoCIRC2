@@ -16,6 +16,16 @@ def clean_peptide_sequence(pep: str) -> str:
     pep = re.sub(r'[^A-Z]', '', pep)
     return pep
 
+_EXCLUDED_PROTEIN_PREFIXES = ("contam", "rev", "sp", "tr")
+
+
+def is_excluded_protein(protein_id: str) -> bool:
+    pid = protein_id.strip().strip('"')
+    if not pid:
+        return False
+    return pid.lower().startswith(_EXCLUDED_PROTEIN_PREFIXES)
+
+
 def extract_circ_info_id(orf_base: str) -> str:
     """Extract circRNA ID from ORF base ID, stripping known prefixes."""
     PREFIXES = [
@@ -119,7 +129,9 @@ def parse_msgf_file(file_path: str, file_line_circ: TextIO, dic_id_peptide: Dict
                 protein_col = columns[idx_protein].strip()
                 circ_id_multiple = protein_col.split(', ')
                 for circ_id in circ_id_multiple:
-                    clean_circ_id = circ_id
+                    clean_circ_id = circ_id.strip().strip('"')
+                    if is_excluded_protein(clean_circ_id):
+                        continue
                     line_out = f"{file_id}\t{Peptide}\t{clean_circ_id}\n"
                     file_line_circ.write(line_out)
                     if file_input_protein == 'none':
@@ -187,6 +199,8 @@ def parse_fragpipe_file(file_path: str, file_line_circ: TextIO, dic_id_peptide: 
                 continue
             
             protein_val = columns[idx_protein].strip().strip('"')
+            if is_excluded_protein(protein_val):
+                continue
             clean_circ_id = protein_val
             
             for sample in sample_cols:
@@ -251,6 +265,8 @@ def parse_fragpipe_combined_file(file_path: str, file_line_circ: TextIO, dic_id_
             if len(peptide_seq) < 6:
                 continue
             protein_val = columns[idx_protein].strip().strip('"')
+            if is_excluded_protein(protein_val):
+                continue
             clean_circ_id = protein_val
             for sample in sample_cols:
                 if sample['idx'] >= len(columns):
@@ -288,6 +304,8 @@ def parse_summary_file(file_path: str, file_line_circ: TextIO, dic_id_peptide: D
             if len(peptide) < 6:
                 continue
             circ_id = parts[2]
+            if is_excluded_protein(circ_id):
+                continue
             global_stats['psms'] += 1
             global_stats['files'].add(file_id)
             line_out = f"{file_id}\t{peptide}\t{circ_id}\n"
